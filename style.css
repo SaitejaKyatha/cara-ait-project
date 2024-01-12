@@ -1,0 +1,9101 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* home styling///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    .headerpart {
+
+        height: 50px;
+        padding: 10px 120px;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        box-shadow: 0px 3px cadetblue;
+        position: sticky;
+        top: 0px;
+        background-color: antiquewhite;
+
+
+
+    }
+
+
+    .aitlogo {
+        height: 100%;
+        width: 200px;
+
+    }
+
+    .headerlist {
+
+        list-style: none;
+        display: flex;
+        gap: 50px;
+        height: 50px;
+        align-items: center;
+        font-weight: 600;
+        font-size: larger;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+    .link {
+        color: black;
+        text-decoration: none;
+    }
+
+    #hamberger {
+        display: none;
+    }
+
+    .headerlist .link>li:hover {
+
+        text-decoration: underline;
+        color: #2e767e;
+    }
+
+
+    .position {
+
+        background-image: url("./assets/images/logo/hero4.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 655px;
+        width: 100%;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+      
+    }
+
+
+    .positioncontent {
+        width: 1000px;
+        display: flex;
+        height: 500px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: end;
+        align-items: left;
+        align-content: center;
+
+    }
+
+    .logobutton {
+
+        height: 40px;
+        width: 200px;
+    }
+
+    .tradeheading {
+
+        font-size: 40px;
+        font-weight: bolder;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+
+    .upperheading {
+
+        font-size: 80px;
+        font-weight: bolder;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .lowerheading {
+
+        font-size: 80px;
+        font-weight: bolder;
+        color: #2e767e;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .paragraph {
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .logopara {
+
+        color: #2e767e;
+        font-weight: bold;
+        font-size: larger;
+        position: relative;
+        top: -30px;
+        margin-left: 60px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .featurespng {
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .featurescard {
+
+        height: 150px;
+        width: 150px;
+        padding: 20px;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+
+    .featurepng {
+
+        height: 130px;
+        width: 100%;
+    }
+
+    .firstbutton {
+
+        height: 30px;
+        width: 100px;
+        border-width: 0px;
+        color: #2e767e;
+        font-weight: bolder;
+        margin-left: 30px;
+    }
+
+    .secondbutton {
+
+        height: 30px;
+        width: 90px;
+        border-width: 0px;
+        color: #2e767e;
+        border-radius: 5px;
+        background-color: lightgreen;
+        font-weight: bolder;
+        margin-left: 30px;
+    }
+
+    .thirdbutton {
+
+        height: 30px;
+        width: 90px;
+        border-width: 0px;
+        color: #2e767e;
+        border-radius: 5px;
+        background-color: lightblue;
+        font-weight: bolder;
+        margin-left: 30px;
+    }
+
+    .fourthbutton {
+
+        height: 30px;
+        width: 90px;
+        border-width: 0px;
+        color: #2e767e;
+        border-radius: 5px;
+        background-color: violet;
+        font-weight: bolder;
+        margin-left: 30px;
+    }
+
+    .fifthbutton {
+
+        height: 30px;
+        width: 90px;
+        border-width: 0px;
+        color: #2e767e;
+        border-radius: 5px;
+        background-color: lightpink;
+        font-weight: bolder;
+        margin-left: 30px;
+    }
+
+    .sixthbutton {
+
+        height: 30px;
+        width: 90px;
+        border-width: 0px;
+        color: #2e767e;
+        border-radius: 5px;
+        background-color: linen;
+        font-weight: bolder;
+        margin-left: 30px;
+    }
+
+    .textalign {
+
+        font-weight: bold;
+        font-size: 45px;
+    }
+
+    .cartoon {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .cartooncard {
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        height: 350px;
+        width: 300px;
+        padding: 10px;
+
+    }
+
+    .cartoonimage {
+
+        height: 250px;
+        width: 100%;
+    }
+
+    .cartoontext {
+        font-size: large;
+        text-decoration: none;
+        color: black;
+    }
+
+    .rateandcart {
+        font-size: large;
+        color: #2e767e;
+        font-weight: bold;
+    }
+
+    .cart {
+        margin-left: 240px;
+    }
+
+    .banner {
+
+        background-image: url("./assets/images/banner/b2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 250px;
+        width: 100%;
+        color: white;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+
+    }
+
+
+
+    .bannerbutton {
+
+        height: 40px;
+        width: 120px;
+        margin: 10px;
+        border-width: 0px;
+        border-radius: 5px;
+
+    }
+
+    .bannerpara {
+
+        margin: 10px;
+        font-size: x-large;
+        font-weight: bold;
+    }
+
+    .bannerheading {
+        margin: 10px;
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    .freeseason {
+
+        height: 400px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .free {
+
+        height: 300px;
+        width: 40%;
+        background-image: url("./assets/images/banner/b17.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .season {
+
+        height: 300px;
+        width: 40%;
+        background-image: url("./assets/images/banner/b10.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .freecontent {
+        margin: 60px 0px 0px 30px;
+        color: white;
+    }
+
+    .freebutton {
+        height: 30px;
+        width: 90px;
+        margin: 5px;
+        border: 1px solid white;
+        border-radius: 5px;
+        color: white;
+        background-color: rgba(211, 142, 24, 0.773);
+    }
+
+    .seasonbutton {
+        height: 30px;
+        width: 90px;
+        margin: 5px;
+        border: 1px solid white;
+        border-radius: 5px;
+        color: white;
+        background-color: #2e767e;
+    }
+
+
+    .seasoncontent {
+        margin: 60px 0px 0px 30px;
+        color: white;
+    }
+
+    .freeseasonpara {
+
+        font-weight: bold;
+        font-size: larger;
+    }
+
+    .freeseasonheading {
+
+        font-weight: bold;
+        font-size: 40px;
+
+    }
+
+    .salefootwearshirts {
+        height: 300px;
+        width: 100%;
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .sale {
+
+        height: 300px;
+        width: 31%;
+        background-image: url("./assets/images/banner/b7.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+
+
+    }
+
+    .footwear {
+        height: 300px;
+        width: 33%;
+        background-image: url("./assets/images/banner/b4.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+
+    }
+
+    .shirts {
+
+        height: 300px;
+        width: 29%;
+        background-image: url("./assets/images/banner/b18.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+
+    }
+
+    .footwearcontent {
+        color: brown;
+        font-weight: bold;
+        margin-left: 30px;
+    }
+
+    .footwearheading1 {
+
+        color: white;
+        margin: 80px 0px 0px 30px;
+    }
+
+    .footwearheading2 {
+
+        color: white;
+        margin: 30px 0px 0px 30px;
+    }
+
+    .footwearheading3 {
+
+        color: white;
+        margin: 80px 0px 0px 30px;
+    }
+
+    .signupbanner {
+
+        height: 150px;
+        width: 100%;
+        background-image: url("./assets/images/banner/b14.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        background-color: #041e41;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    .signupheading {
+        color: white;
+        font-size: 33px;
+    }
+
+    .input {
+
+        height: 40px;
+        width: 340px;
+        border-width: 0px;
+        border-radius: 4px 0px 0px 4px;
+        margin: 0px;
+
+    }
+
+    .inputbutton {
+
+        height: 40px;
+        width: 80px;
+        border-width: 0px;
+        border-radius: 0px 4px 4px 0px;
+        color: white;
+        background-color: #2e767e;
+        margin: 0px;
+    }
+
+    .footer {
+
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        justify-content: space-evenly;
+        
+    }
+
+    .contact {
+
+       
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .about {
+
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+       
+    }
+
+    .myaccount {
+
+        
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .installapp {
+
+        
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+      
+    }
+
+    .footerlogo {
+
+        height: 50px;
+        width: 200px;
+    }
+
+    .footerbold {
+
+        font-weight: bolder;
+        font-size: large;
+    }
+
+    .footercontact {
+
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    .lighter{
+        font-weight: lighter;
+    }
+
+    .footerbutton {
+
+        border-radius: 4px;
+        border: 1px solid gray;
+       
+    }
+
+    .buttonimage {
+
+        height: 35px;
+        width: 150px;
+    }
+
+    .emojicolor {
+
+        color: black;
+    }
+
+    .linkemoji >a>i:hover{
+
+        color: #2e767e;
+       
+    }
+}
+
+/* 
+    ##Device = Laptops, Desktops/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ##Screen = B/w 1024px to 1280px///////////////////////////////////////////////////////////////////////////////////////////////////////////
+  */
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    .headerpart {
+
+        height: 50px;
+        padding: 10px 120px;
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 0px 3px cadetblue;
+        position: sticky;
+        top: 0px;
+        background-color: antiquewhite;
+
+    }
+
+
+    .aitlogo {
+        height: 100%;
+        width: 200px;
+    }
+
+    .headerlist {
+
+        list-style: none;
+        display: flex;
+        gap: 50px;
+        height: 50px;
+        align-items: center;
+        font-weight: 600;
+        font-size: larger;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+
+    #hamberger {
+
+        display: none;
+    }
+
+    .link {
+        color: black;
+        text-decoration: none;
+    }
+
+    .headerlist .link>li:hover {
+
+        text-decoration: underline;
+        color: #2e767e;
+    }
+
+
+
+
+    .position {
+
+        background-image: url("./assets/images/logo/hero4.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+
+    }
+
+    .positioncontent {
+        width: 1000px;
+        display: flex;
+        height: 350px;
+        width: 75%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: end;
+        align-items: left;
+        align-content: center;
+
+
+    }
+
+    .logobutton {
+
+        height: 40px;
+        width: 200px;
+    }
+
+
+    .tradeheading {
+
+        font-size: 40px;
+        font-weight: bolder;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .upperheading {
+
+        font-size: 65px;
+        font-weight: bolder;
+
+    }
+
+    .lowerheading {
+
+        font-size: 65px;
+        font-weight: bolder;
+        color: #2e767e;
+    }
+
+    .logopara {
+
+        color: #2e767e;
+        font-weight: bold;
+        font-size: larger;
+        margin-left: 60px;
+        position: relative;
+        top: -40px;
+
+    }
+
+    .featurespng {
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-evenly;
+        margin: 20px;
+    }
+
+    .featurescard {
+
+        height: 120px;
+        width: 100px;
+        padding: 20px;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+    }
+
+    .featurepng {
+
+        height: 100px;
+        width: 100%;
+    }
+
+    .firstbutton {
+
+        height: 30px;
+        width: 100px;
+        border-width: 0px;
+        color: #2e767e;
+        font-weight: bolder;
+
+    }
+
+    .secondbutton {
+
+        height: 30px;
+        width: 90px;
+        border-width: 0px;
+        color: #2e767e;
+        border-radius: 5px;
+        background-color: lightgreen;
+        font-weight: bolder;
+
+    }
+
+    .thirdbutton {
+
+        height: 30px;
+        width: 90px;
+        border-width: 0px;
+        color: #2e767e;
+        border-radius: 5px;
+        background-color: lightblue;
+        font-weight: bolder;
+
+    }
+
+    .fourthbutton {
+
+        height: 30px;
+        width: 90px;
+        border-width: 0px;
+        color: #2e767e;
+        border-radius: 5px;
+        background-color: violet;
+        font-weight: bolder;
+
+    }
+
+    .fifthbutton {
+
+        height: 30px;
+        width: 90px;
+        border-width: 0px;
+        color: #2e767e;
+        border-radius: 5px;
+        background-color: lightpink;
+        font-weight: bolder;
+
+    }
+
+    .sixthbutton {
+
+        height: 30px;
+        width: 90px;
+        border-width: 0px;
+        color: #2e767e;
+        border-radius: 5px;
+        background-color: linen;
+        font-weight: bolder;
+
+    }
+
+    .textalign {
+
+        font-weight: bold;
+        font-size: 35px;
+    }
+
+
+    .cartoon {
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .cartooncard {
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        height: 300px;
+        width: 250px;
+        padding: 10px;
+
+    }
+
+    .cartoonimage {
+
+        height: 200px;
+        width: 100%;
+    }
+
+    .cartoontext {
+        font-size: large;
+        text-decoration: none;
+        color: black;
+    }
+
+    .rateandcart {
+        font-size: large;
+        color: #2e767e;
+        font-weight: bold;
+    }
+
+    .cart {
+        margin-left: 180px;
+    }
+
+    .banner {
+
+        background-image: url("./assets/images/banner/b2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 250px;
+        width: 100%;
+        color: white;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+
+    }
+
+
+
+    .bannerbutton {
+
+        height: 40px;
+        width: 120px;
+        margin: 10px;
+        border-width: 0px;
+        border-radius: 5px;
+
+    }
+
+    .bannerpara {
+
+        margin: 10px;
+        font-size: x-large;
+        font-weight: bold;
+    }
+
+    .bannerheading {
+        margin: 10px;
+        font-weight: bold;
+        font-size: 35px;
+    }
+
+    .freeseason {
+
+        height: 400px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .free {
+
+        height: 300px;
+        width: 45%;
+        background-image: url("./assets/images/banner/b17.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .season {
+
+        height: 300px;
+        width: 45%;
+        background-image: url("./assets/images/banner/b10.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .freecontent {
+        margin: 60px 0px 0px 30px;
+        color: white;
+    }
+
+    .freebutton {
+        height: 30px;
+        width: 90px;
+        margin: 5px;
+        border: 1px solid white;
+        border-radius: 5px;
+        color: white;
+        background-color: rgba(211, 142, 24, 0.773);
+    }
+
+    .seasonbutton {
+        height: 30px;
+        width: 90px;
+        margin: 5px;
+        border: 1px solid white;
+        border-radius: 5px;
+        color: white;
+        background-color: #2e767e;
+    }
+
+
+    .seasoncontent {
+        margin: 60px 0px 0px 30px;
+        color: white;
+    }
+
+    .freeseasonpara {
+
+        font-weight: bold;
+        font-size: larger;
+    }
+
+    .freeseasonheading {
+
+        font-weight: bold;
+        font-size: 40px;
+
+    }
+
+    .salefootwearshirts {
+        height: 200px;
+        width: 100%;
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .sale {
+
+        height: 200px;
+        width: 31%;
+        background-image: url("./assets/images/banner/b7.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+       
+
+
+    }
+
+    .footwear {
+        height: 200px;
+        width: 33%;
+        background-image: url("./assets/images/banner/b4.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+       
+
+    }
+
+    .shirts {
+
+        height: 200px;
+        width: 29%;
+        background-image: url("./assets/images/banner/b18.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+       
+
+    }
+
+    .footwearcontent {
+        color: brown;
+        font-weight: bold;
+        margin-left: 30px;
+    }
+
+    .footwearheading1 {
+
+        color: white;
+        margin: 80px 0px 0px 30px;
+    }
+
+    .footwearheading2 {
+
+        color: white;
+        margin: 30px 0px 0px 30px;
+    }
+
+    .footwearheading3 {
+
+        color: white;
+        margin: 80px 0px 0px 30px;
+    }
+
+
+    .signupbanner {
+
+        height: 150px;
+        width: 100%;
+        background-image: url("./assets/images/banner/b14.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        background-color: #041e41;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    .signupheading {
+        color: white;
+        font-size: 33px;
+    }
+
+    .input {
+
+        height: 40px;
+        width: 340px;
+        border-width: 0px;
+        border-radius: 4px 0px 0px 4px;
+        margin: 0px;
+
+    }
+
+    .inputbutton {
+
+        height: 40px;
+        width: 80px;
+        border-width: 0px;
+        border-radius: 0px 4px 4px 0px;
+        color: white;
+        background-color: #2e767e;
+        margin: 0px;
+    }
+
+    .footer {
+
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        justify-content: space-around;
+        
+    }
+
+    .contact {
+
+       
+        width: 400px;
+        display: flex;
+        width: 30%;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .about {
+
+        width: 200px;
+        display: flex;
+        width: 15%;
+        flex-direction: column;
+        gap: 10px;
+       
+    }
+
+    .myaccount {
+
+        
+        width: 200px;
+        display: flex;
+        width: 15%;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .installapp {
+
+        
+        width: 400px;
+        display: flex;
+        width: 30%;
+        flex-direction: column;
+        gap: 10px;
+      
+    }
+
+    .footerlogo {
+
+        height: 50px;
+        width: 200px;
+    }
+
+    .footerbold {
+
+        font-weight: bolder;
+        font-size: large;
+    }
+
+    .footercontact {
+
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    .lighter{
+        font-weight: lighter;
+    }
+
+    .footerbutton {
+
+        border-radius: 4px;
+        border: 1px solid gray;
+        margin: 10px;
+       
+    }
+
+    .buttonimage {
+
+        height: 35px;
+        width: 150px;
+    }
+
+    .emojicolor {
+
+        color: black;
+    }
+
+    .linkemoji >a>i:hover{
+
+        color: #2e767e;
+       
+    }
+
+
+
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)///////////////////////////////////////////////////////////////////////////////////////////////////////
+    ##Screen = B/w 768px to 1023px/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    .headerpart {
+
+        height: 50px;
+        padding: 10px 120px;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        box-shadow: 0px 3px cadetblue;
+        position: sticky;
+        top: 0px;
+        background-color: antiquewhite;
+
+    }
+
+
+    .aitlogo {
+        height: 100%;
+        width: 150px;
+    }
+
+    .headerlist {
+
+        list-style: none;
+        display: flex;
+        gap: 50px;
+        height: 55px;
+        align-items: center;
+        font-weight: 600;
+        font-size: larger;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+
+    #hamberger {
+
+        display: none;
+    }
+
+    .link {
+        color: black;
+        text-decoration: none;
+    }
+
+
+    .headerlist .link>li:hover {
+
+        text-decoration: underline;
+        color: #2e767e;
+    }
+
+
+
+    .position {
+
+        background-image: url("./assets/images/logo/hero4.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+
+    }
+
+    .positioncontent {
+        width: 1000px;
+        display: flex;
+        height: 500px;
+        width: 70%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: left;
+        align-content: center;
+
+    }
+
+    .logobutton {
+
+        height: 40px;
+        width: 200px;
+    }
+
+    .tradeheading {
+
+        font-size: 40px;
+        font-weight: bolder;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+
+    .upperheading {
+
+        font-size: 55px;
+        font-weight: bolder;
+
+    }
+
+    .lowerheading {
+
+        font-size: 55px;
+        font-weight: bolder;
+        color: #2e767e;
+
+
+    }
+
+    .logopara {
+
+        color: #2e767e;
+        font-weight: bold;
+        font-size: larger;
+        position: relative;
+        top: -30px;
+        margin-left: 60px;
+
+    }
+
+    .featurespng {
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        margin: 20px;
+
+    }
+
+    .featurescard {
+
+        height: 150px;
+        width: 100px;
+        padding: 30px;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+
+    }
+
+    .featurepng {
+
+        height: 130px;
+        width: 100%;
+    }
+
+    .firstbutton {
+
+        height: 30px;
+        width: 100px;
+        border-width: 0px;
+        color: #2e767e;
+        font-weight: bolder;
+        margin-left: 30px;
+
+    }
+
+    .secondbutton {
+
+        height: 30px;
+        width: 90px;
+        border-width: 0px;
+        color: #2e767e;
+        border-radius: 5px;
+        background-color: lightgreen;
+        font-weight: bolder;
+        margin-left: 30px;
+
+    }
+
+    .thirdbutton {
+
+        height: 30px;
+        width: 90px;
+        border-width: 0px;
+        color: #2e767e;
+        border-radius: 5px;
+        background-color: lightblue;
+        font-weight: bolder;
+        margin-left: 30px;
+
+    }
+
+    .fourthbutton {
+
+        height: 30px;
+        width: 90px;
+        border-width: 0px;
+        color: #2e767e;
+        border-radius: 5px;
+        background-color: violet;
+        font-weight: bolder;
+        margin-left: 30px;
+
+    }
+
+    .fifthbutton {
+
+        height: 30px;
+        width: 90px;
+        border-width: 0px;
+        color: #2e767e;
+        border-radius: 5px;
+        background-color: lightpink;
+        font-weight: bolder;
+        margin-left: 30px;
+
+    }
+
+    .sixthbutton {
+
+        height: 30px;
+        width: 90px;
+        border-width: 0px;
+        color: #2e767e;
+        border-radius: 5px;
+        background-color: linen;
+        font-weight: bolder;
+        margin-left: 30px;
+
+    }
+
+    .textalign {
+
+        font-weight: bold;
+        font-size: 45px;
+    }
+
+
+    .cartoon {
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .cartooncard {
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        height: 400px;
+        width: 300px;
+        padding: 10px;
+
+    }
+
+    .cartoonimage {
+
+        height: 300px;
+        width: 100%;
+    }
+
+    .cartoontext {
+        font-size: large;
+        text-decoration: none;
+        color: black;
+    }
+    .rateandcart {
+        font-size: x-large;
+        color: #2e767e;
+        font-weight: bold;
+    }
+
+    .cart {
+        margin-left: 230px;
+    }
+
+    .banner {
+
+        background-image: url("./assets/images/banner/b2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 250px;
+        width: 100%;
+        color: white;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+
+    }
+
+
+
+    .bannerbutton {
+
+        height: 40px;
+        width: 120px;
+        margin: 10px;
+
+    }
+
+    .bannerpara {
+
+        margin: 10px;
+        font-size: x-large;
+        font-weight: bold;
+    }
+
+    .bannerheading {
+        margin: 10px;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    .freeseason {
+
+        height: 230px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        gap: 30px;
+
+    }
+
+    .free {
+
+        height: 190px;
+        width: 45%;
+        background-image: url("./assets/images/banner/b17.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+
+    }
+
+    .season {
+
+        height: 190px;
+        width: 45%;
+        background-image: url("./assets/images/banner/b10.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+
+    }
+
+    .freecontent {
+        margin: 30px 0px 0px 20px;
+        color: white;
+    }
+
+    .freebutton {
+        height: 30px;
+        width: 90px;
+        margin: 5px;
+        border: 1px solid white;
+        border-radius: 5px;
+        color: white;
+        background-color: rgba(211, 142, 24, 0.773);
+    }
+
+    .seasonbutton {
+        height: 30px;
+        width: 90px;
+        margin: 5px;
+        border: 1px solid white;
+        border-radius: 5px;
+        color: white;
+        background-color: #2e767e;
+    }
+
+
+    .seasoncontent {
+        margin: 30px 0px 0px 20px;
+        color: white;
+    }
+
+    .freeseasonpara {
+
+        font-weight: bold;
+        font-size: larger;
+    }
+
+    .freeseasonheading {
+
+        font-weight: bold;
+        font-size: 30px;
+
+    }
+
+    .salefootwearshirts {
+        height: 200px;
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        
+    }
+
+    .sale {
+
+        height: 200px;
+        width: 31%;
+        background-image: url("./assets/images/banner/b7.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        
+
+
+    }
+
+    .footwear {
+        height: 200px;
+        width: 33%;
+        background-image: url("./assets/images/banner/b4.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+       
+
+    }
+
+    .shirts {
+
+        height: 200px;
+        width: 29%;
+        background-image: url("./assets/images/banner/b18.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        
+       
+
+    }
+
+    .footwearcontent {
+        color: brown;
+        font-weight: bold;
+        margin-left: 30px;
+        font-size: smaller;
+    }
+
+    .footwearheading1 {
+
+        color: white;
+        font-size: x-large;
+        margin: 40px 0px 0px 30px;
+    }
+
+    .footwearheading2 {
+
+        color: white;
+        margin: 20px 0px 0px 30px;
+        font-size: large;
+    }
+
+    .footwearheading3 {
+
+        color: white;
+        margin: 40px 0px 0px 30px;
+        font-size: x-large;
+    }
+
+    .signupbanner {
+
+        height: 150px;
+        width: 100%;
+        background-image: url("./assets/images/banner/b14.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        background-color: #041e41;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    .signupheading {
+        color: white;
+        font-size: 33px;
+    }
+
+    .input {
+
+        height: 40px;
+        width: 340px;
+        border-width: 0px;
+        border-radius: 4px 0px 0px 4px;
+        margin: 0px;
+
+    }
+
+    .inputbutton {
+
+        height: 40px;
+        width: 80px;
+        border-width: 0px;
+        border-radius: 0px 4px 4px 0px;
+        color: white;
+        background-color: #2e767e;
+        margin: 0px;
+    }
+    
+    .footer {
+
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        justify-content: space-evenly;
+        gap: 20px;
+       
+        
+    }
+
+    .contact {
+
+       
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+       
+    }
+
+    .about {
+
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+       
+       
+    }
+
+    .myaccount {
+
+        
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      padding: 10px;
+      
+    }
+
+    .installapp {
+
+        
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+       
+      
+    }
+
+    .footerlogo {
+
+        height: 50px;
+        width: 200px;
+    }
+
+    .footerbold {
+
+        font-weight: bolder;
+        font-size: large;
+    }
+
+    .footercontact {
+
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    .lighter{
+        font-weight: lighter;
+    }
+
+    .footerbutton {
+
+        border-radius: 4px;
+        border: 1px solid gray;
+       
+    }
+
+    .buttonimage {
+
+        height: 35px;
+        width: 150px;
+    }
+
+    .emojicolor {
+
+        color: black;
+    }
+
+    .linkemoji >a>i:hover{
+
+        color: #2e767e;
+       
+    }
+
+
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)///////////////////////////////////////////////////////////////////////////////////////////
+    ##Screen = B/w 768px to 1024px  /////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  */
+
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    .headerpart {
+
+        height: 50px;
+        padding: 10px 50px;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        box-shadow: 0px 3px cadetblue;
+        position: sticky;
+        top: 0px;
+
+    }
+
+
+    .aitlogo {
+        height: 100%;
+        width: 150px;
+    }
+
+    .headerlist {
+
+        list-style: none;
+        display: flex;
+        gap: 50px;
+        height: 50px;
+        align-items: center;
+        font-weight: 600;
+        font-size: larger;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+    #hamberger {
+
+        display: none;
+    }
+
+    .link {
+        color: black;
+        text-decoration: none;
+    }
+
+    .headerlist .link>li:hover {
+
+        text-decoration: underline;
+        color: #2e767e;
+    }
+
+    .position {
+
+        background-image: url("./assets/images/logo/hero4.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        width: 100%;
+
+    }
+
+    .positioncontent {
+        width: 1000px;
+        display: flex;
+        height: 350px;
+        width: 70%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: end;
+        align-items: left;
+        align-content: center;
+    }
+
+    .logobutton {
+
+        height: 40px;
+        width: 200px;
+    }
+
+    .tradeheading {
+
+        font-size: 40px;
+        font-weight: bolder;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+
+    .upperheading {
+
+        font-size: 55px;
+        font-weight: bolder;
+
+    }
+
+    .lowerheading {
+
+        font-size: 55px;
+        font-weight: bolder;
+        color: #2e767e;
+
+    }
+
+    .logopara {
+
+        color: #2e767e;
+        font-weight: bold;
+        font-size: larger;
+        position: relative;
+        top: -40px;
+    }
+
+    .featurespng {
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        margin: 10px;
+
+    }
+
+    .featurescard {
+
+        height: 150px;
+        width: 150px;
+        padding: 40px;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+
+    .featurepng {
+
+        height: 130px;
+        width: 100%;
+    }
+
+    .firstbutton {
+
+        height: 30px;
+        width: 100px;
+        border-width: 0px;
+        color: #2e767e;
+        font-weight: bolder;
+        margin-left: 30px;
+
+    }
+
+    .secondbutton {
+
+        height: 30px;
+        width: 90px;
+        border-width: 0px;
+        color: #2e767e;
+        border-radius: 5px;
+        background-color: lightgreen;
+        font-weight: bolder;
+        margin-left: 30px;
+
+    }
+
+    .thirdbutton {
+
+        height: 30px;
+        width: 90px;
+        border-width: 0px;
+        color: #2e767e;
+        border-radius: 5px;
+        background-color: lightblue;
+        font-weight: bolder;
+        margin-left: 30px;
+
+    }
+
+    .fourthbutton {
+
+        height: 30px;
+        width: 90px;
+        border-width: 0px;
+        color: #2e767e;
+        border-radius: 5px;
+        background-color: violet;
+        font-weight: bolder;
+        margin-left: 30px;
+
+    }
+
+    .fifthbutton {
+
+        height: 30px;
+        width: 90px;
+        border-width: 0px;
+        color: #2e767e;
+        border-radius: 5px;
+        background-color: lightpink;
+        font-weight: bolder;
+        margin-left: 30px;
+
+    }
+
+    .sixthbutton {
+
+        height: 30px;
+        width: 90px;
+        border-width: 0px;
+        color: #2e767e;
+        border-radius: 5px;
+        background-color: linen;
+        font-weight: bolder;
+        margin-left: 30px;
+
+    }
+
+    .textalign {
+
+        font-weight: bold;
+        font-size: 35px;
+    }
+
+    .cartoon {
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .cartooncard {
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        height: 300px;
+        width: 300px;
+        padding: 10px;
+
+    }
+
+    .cartoonimage {
+
+        height: 200px;
+        width: 100%;
+    }
+
+    .cartoontext {
+        font-size: large;
+        text-decoration: none;
+        color: black;
+    }
+
+    .rateandcart {
+        font-size: x-large;
+        color: #2e767e;
+        font-weight: bold;
+    }
+
+    .cart {
+        margin-left: 220px;
+    }
+
+    .banner {
+
+        background-image: url("./assets/images/banner/b2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 250px;
+        width: 100%;
+        color: white;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+
+    }
+
+
+
+    .bannerbutton {
+
+        height: 35px;
+        width: 120px;
+        margin: 10px;
+        border-width: 0px;
+        border-radius: 5px;
+
+    }
+
+    .bannerpara {
+
+        margin: 10px;
+        font-size: x-large;
+        font-weight: bold;
+    }
+
+    .bannerheading {
+        margin: 10px;
+        font-weight: bold;
+        font-size: 35px;
+    }
+
+    .freeseason {
+
+        height: 230px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        gap: 30px;
+
+    }
+
+    .free {
+
+        height: 190px;
+        width: 45%;
+        background-image: url("./assets/images/banner/b17.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+
+    }
+
+    .season {
+
+        height: 190px;
+        width: 45%;
+        background-image: url("./assets/images/banner/b10.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+
+    }
+
+    .freecontent {
+        margin: 30px 0px 0px 20px;
+        color: white;
+    }
+
+    .freebutton {
+        height: 30px;
+        width: 90px;
+        margin: 5px;
+        border: 1px solid white;
+        border-radius: 5px;
+        color: white;
+        background-color: rgba(211, 142, 24, 0.773);
+    }
+
+    .seasonbutton {
+        height: 30px;
+        width: 90px;
+        margin: 5px;
+        border: 1px solid white;
+        border-radius: 5px;
+        color: white;
+        background-color: #2e767e;
+    }
+
+
+    .seasoncontent {
+        margin: 30px 0px 0px 20px;
+        color: white;
+    }
+
+    .freeseasonpara {
+
+        font-weight: bold;
+        font-size: larger;
+    }
+
+    .freeseasonheading {
+
+        font-weight: bold;
+        font-size: 30px;
+
+    }
+
+    .salefootwearshirts {
+        height: 200px;
+        width: 100%;
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .sale {
+
+        height: 170px;
+        width: 31%;
+        background-image: url("./assets/images/banner/b7.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+
+
+    }
+
+    .footwear {
+        height: 170px;
+        width: 33%;
+        background-image: url("./assets/images/banner/b4.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+
+    }
+
+    .shirts {
+
+        height: 170px;
+        width: 29%;
+        background-image: url("./assets/images/banner/b18.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+       
+
+    }
+
+    .footwearcontent {
+        color: brown;
+        font-weight: bold;
+        margin-left: 30px;
+    }
+
+    .footwearheading1 {
+
+        color: white;
+        margin: 40px 0px 0px 30px;
+    }
+
+    .footwearheading2 {
+
+        color: white;
+        margin: 30px 0px 0px 30px;
+    }
+
+    .footwearheading3 {
+
+        color: white;
+        margin: 40px 0px 0px 30px;
+    }
+
+
+    .signupbanner {
+
+        height: 150px;
+        width: 100%;
+        background-image: url("./assets/images/banner/b14.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        background-color: #041e41;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    .signupheading {
+        color: white;
+        font-size: 33px;
+    }
+
+    .input {
+
+        height: 40px;
+        width: 340px;
+        border-width: 0px;
+        border-radius: 4px 0px 0px 4px;
+        margin: 0px;
+
+    }
+
+    .inputbutton {
+
+        height: 40px;
+        width: 80px;
+        border-width: 0px;
+        border-radius: 0px 4px 4px 0px;
+        color: white;
+        background-color: #2e767e;
+        margin: 0px;
+    }
+
+    .footer {
+
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        justify-content: center;
+        
+    }
+
+    .contact {
+
+       
+        width: 400px;
+        display: flex;
+        width: 27%;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .about {
+
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 14%;
+       
+    }
+
+    .myaccount {
+
+        
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 12%;
+    }
+
+    .installapp {
+
+        
+        width: 400px;
+        display: flex;
+        width: 27%;
+        flex-direction: column;
+        gap: 10px;
+      
+    }
+
+    .footerlogo {
+
+        height: 50px;
+        width: 200px;
+    }
+
+    .footerbold {
+
+        font-weight: bolder;
+        font-size: large;
+    }
+
+    .footercontact {
+
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    .lighter{
+        font-weight: lighter;
+    }
+
+    .footerbutton {
+
+        border-radius: 4px;
+        border: 1px solid gray;
+        margin: 10px;
+       
+    }
+
+    .buttonimage {
+
+        height: 35px;
+        width: 150px;
+    }
+
+    .emojicolor {
+
+        color: black;
+    }
+
+    .linkemoji >a>i:hover{
+
+        color: #2e767e;
+       
+    }
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape) //////////////////////////////////////////////////////////////////////////////////
+    ##Screen = B/w 481px to 767px ///////////////////////////////////////////////////////////////////////////////////////////////////////////
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    .headerpart {
+
+        height: 50px;
+        padding: 10px 10px;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        box-shadow: 0px 3px cadetblue;
+        position: sticky;
+        top: 0px;
+        background-color: antiquewhite;
+    }
+
+
+    .aitlogo {
+        height: 100%;
+        width: 150px;
+    }
+
+    .headerlist {
+
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        height: 50px;
+        align-items: center;
+        font-weight: 600;
+        font-size: large;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+
+    #hamberger {
+
+        display: none;
+    }
+
+    .link {
+        color: black;
+        text-decoration: none;
+    }
+
+
+    .headerlist .link>li:hover {
+
+        text-decoration: underline;
+        color: #2e767e;
+    }
+
+
+    .position {
+
+        background-image: url("./assets/images/logo/hero4.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        width: 100%;
+
+    }
+
+    .positioncontent {
+        width: 1000px;
+        display: flex;
+        height: 250px;
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: end;
+        align-items: left;
+    }
+
+    .logobutton {
+
+        height: 40px;
+        width: 200px;
+    }
+
+
+
+
+
+    .tradeheading {
+
+        font-size: 25px;
+        font-weight: bolder;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+
+    .upperheading {
+
+        font-size: 35px;
+        font-weight: bolder;
+
+
+    }
+
+    .lowerheading {
+
+        font-size: 35px;
+        font-weight: bolder;
+        color: #2e767e;
+
+    }
+
+
+    .logopara {
+
+        color: #2e767e;
+        font-weight: bold;
+        font-size: larger;
+        margin-left: 60px;
+        position: relative;
+        top: -40px;
+    }
+
+    .featurespng {
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        margin: 10px;
+    }
+
+    .featurescard {
+
+        height: 170px;
+        width: 150px;
+        padding: 10px;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+
+    }
+
+    .featurepng {
+
+        height: 130px;
+        width: 100%;
+    }
+
+    .firstbutton {
+
+        height: 30px;
+        width: 100px;
+        border-width: 0px;
+        color: #2e767e;
+        font-weight: bolder;
+        margin-left: 30px;
+
+    }
+
+    .secondbutton {
+
+        height: 30px;
+        width: 90px;
+        border-width: 0px;
+        color: #2e767e;
+        border-radius: 5px;
+        background-color: lightgreen;
+        font-weight: bolder;
+        margin-left: 30px;
+
+    }
+
+    .thirdbutton {
+
+        height: 30px;
+        width: 90px;
+        border-width: 0px;
+        color: #2e767e;
+        border-radius: 5px;
+        background-color: lightblue;
+        font-weight: bolder;
+        margin-left: 30px;
+
+    }
+
+    .fourthbutton {
+
+        height: 30px;
+        width: 90px;
+        border-width: 0px;
+        color: #2e767e;
+        border-radius: 5px;
+        background-color: violet;
+        font-weight: bolder;
+        margin-left: 30px;
+
+    }
+
+    .fifthbutton {
+
+        height: 30px;
+        width: 90px;
+        border-width: 0px;
+        color: #2e767e;
+        border-radius: 5px;
+        background-color: lightpink;
+        font-weight: bolder;
+        margin-left: 30px;
+
+    }
+
+    .sixthbutton {
+
+        height: 30px;
+        width: 90px;
+        border-width: 0px;
+        color: #2e767e;
+        border-radius: 5px;
+        background-color: linen;
+        font-weight: bolder;
+        margin-left: 30px;
+
+    }
+
+    .textalign {
+
+        font-weight: bold;
+        font-size: 35px;
+    }
+
+    .cartoon {
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .cartooncard {
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        height: 300px;
+        width: 300px;
+        padding: 10px;
+    }
+
+    .cartoonimage {
+
+        height: 200px;
+        width: 100%;
+    }
+
+    .cartoontext {
+        font-size: large;
+        text-decoration: none;
+        color: black;
+    }
+
+    .rateandcart {
+        font-size: x-large;
+        color: #2e767e;
+        font-weight: bold;
+    }
+
+    .cart {
+        margin-left: 230px;
+    }
+
+    .banner {
+
+        background-image: url("./assets/images/banner/b2.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 200px;
+        width: 100%;
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+
+
+    }
+
+    .bannercontent {
+        margin: 20px;
+    }
+
+
+
+    .bannerbutton {
+
+        height: 25px;
+        width: 110px;
+        margin: 10px;
+        border-width: 0px;
+        border-radius: 5px;
+
+    }
+
+    .bannerpara {
+
+        margin: 5px;
+        font-size: larger;
+        font-weight: bold;
+    }
+
+    .bannerheading {
+
+        font-weight: bold;
+        font-size: 25px;
+        margin: 5px;
+    }
+
+    .freeseason {
+
+        height: 450px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 30px;
+        gap: 20px;
+        justify-content: center;
+
+    }
+
+    .free {
+
+        height: 210px;
+        width: 78%;
+        background-image: url("./assets/images/banner/b17.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+
+    }
+
+    .season {
+
+        height: 220px;
+        width: 78%;
+        background-image: url("./assets/images/banner/b10.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+
+    }
+
+    .freecontent {
+
+
+        margin: 40px 0px 0px 10px;
+        color: white;
+    }
+
+    .freebutton {
+        height: 30px;
+        width: 90px;
+        margin: 5px;
+        border-width: 0px;
+        border-radius: 5px;
+        color: white;
+        background-color: rgba(211, 142, 24, 0.773);
+    }
+
+    .seasonbutton {
+        height: 30px;
+        width: 90px;
+        margin: 5px;
+        border-width: 0px;
+        border-radius: 5px;
+        color: white;
+        background-color: #2e767e;
+    }
+
+
+    .seasoncontent {
+        margin: 40px 0px 0px 10px;
+        color: white;
+    }
+
+    .salefootwearshirts {
+        height: 650px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        margin: 30px;
+
+    }
+
+    .sale {
+
+        height: 205px;
+        width: 78%;
+        background-image: url("./assets/images/banner/b7.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+
+
+
+
+
+    }
+
+    .footwear {
+        height: 190px;
+        width: 78%;
+        background-image: url("./assets/images/banner/b4.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+
+
+    }
+
+    .shirts {
+
+        height: 220px;
+        width: 78%;
+        background-image: url("./assets/images/banner/b18.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .footwearcontent {
+        color: brown;
+        font-weight: bold;
+        margin-left: 30px;
+    }
+
+    .footwearheading1 {
+
+        color: white;
+        margin: 80px 0px 0px 30px;
+    }
+
+    .footwearheading2 {
+
+        color: white;
+        font-size: 25px;
+        margin: 30px 0px 0px 30px;
+    }
+
+    .footwearheading3 {
+
+        color: white;
+        margin: 80px 0px 0px 30px;
+    }
+
+    .signupbanner {
+
+        height: 150px;
+        width: 100%;
+        background-image: url("./assets/images/banner/b14.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        background-color: #041e41;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    .signupheading {
+        color: white;
+        font-size: 33px;
+    }
+
+    .input {
+
+        height: 40px;
+        width: 340px;
+        border-width: 0px;
+        border-radius: 4px 0px 0px 4px;
+        margin: 0px;
+
+    }
+
+    .inputbutton {
+
+        height: 40px;
+        width: 80px;
+        border-width: 0px;
+        border-radius: 0px 4px 4px 0px;
+        color: white;
+        background-color: #2e767e;
+        margin: 0px;
+    }
+
+    .footer {
+
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        justify-content: space-evenly;
+        
+    }
+
+    .contact {
+
+       
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .about {
+
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+       
+       
+    }
+
+    .myaccount {
+
+        
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      padding: 10px;
+    }
+
+    .installapp {
+
+        
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+      
+    }
+
+    .footerlogo {
+
+        height: 50px;
+        width: 200px;
+    }
+
+    .footerbold {
+
+        font-weight: bolder;
+        font-size: large;
+    }
+
+    .footercontact {
+
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    .lighter{
+        font-weight: lighter;
+    }
+
+    .footerbutton {
+
+        border-radius: 4px;
+        border: 1px solid gray;
+       
+    }
+
+    .buttonimage {
+
+        height: 35px;
+        width: 150px;
+    }
+
+    .emojicolor {
+
+        color: black;
+    }
+
+    .linkemoji >a>i:hover{
+
+        color: #2e767e;
+       
+    }
+
+
+
+}
+
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)//////////////////////////////////////////////////////////////////////////////////////
+    ##Screen = B/w 320px to 479px//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  */
+
+@media  (max-width: 480px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+
+    }
+
+
+    .headerpart {
+
+        height: 50px;
+        width: 100%;
+        display: flex;
+        padding: 10px 20px;
+        justify-content: space-between;
+        align-content: center;
+        box-shadow: 0px 3px cadetblue;
+        position: sticky;
+        top: 0px;
+        background-color: antiquewhite;
+
+    }
+
+
+    .aitlogo {
+        height: 100%;
+        width: 100px;
+    }
+
+    .headerlist {
+
+        list-style: none;
+        display: flex;
+        gap: 10px;
+        height: 50px;
+        width: 100%;
+        align-items: center;
+        font-weight: 600;
+        font-size: small;
+        font-family: 'Times New Roman', Times, serif;
+
+
+    }
+
+    #hamberger {
+
+        display: none;
+    }
+
+    .link {
+        color: black;
+        text-decoration: none;
+    }
+
+
+    .headerlist .link>li:hover {
+
+        text-decoration: underline;
+        color: #2e767e;
+    }
+
+
+    .position {
+
+        background-image: url("./assets/images/logo/hero4.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 250px;
+        width: 110%;
+
+    }
+
+    .positioncontent {
+        width: 1000px;
+        display: flex;
+        height: 250px;
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: end;
+        align-items: left;
+
+    }
+
+    .logobutton {
+
+        height: 40px;
+        width: 200px;
+    }
+
+
+
+
+    .tradeheading {
+
+        font-size: 25px;
+        font-weight: bolder;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .upperheading {
+
+        font-size: 30px;
+        font-weight: bolder;
+
+    }
+
+    .lowerheading {
+
+        font-size: 30px;
+        font-weight: bolder;
+        color: #2e767e;
+
+    }
+
+    .logobutton {
+
+        height: 40px;
+    }
+
+
+
+    .logopara {
+
+        color: #2e767e;
+        font-weight: bold;
+        font-size: larger;
+        position: relative;
+        top: -35px;
+        margin-left: 50px;
+    }
+
+    .featurespng {
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-evenly;
+        margin: 20px;
+    }
+
+    .featurescard {
+
+        height: 170px;
+        width: 150px;
+        padding: 10px;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+
+    }
+
+    .featurepng {
+
+        height: 130px;
+        width: 100%;
+
+    }
+
+    .firstbutton {
+
+        height: 30px;
+        width: 100px;
+        border-width: 0px;
+        color: #2e767e;
+        font-weight: bolder;
+        margin-left: 30px;
+
+    }
+
+    .secondbutton {
+
+        height: 30px;
+        width: 90px;
+        border-width: 0px;
+        color: #2e767e;
+        border-radius: 5px;
+        background-color: lightgreen;
+        font-weight: bolder;
+        margin-left: 30px;
+
+    }
+
+    .thirdbutton {
+
+        height: 30px;
+        width: 90px;
+        border-width: 0px;
+        color: #2e767e;
+        border-radius: 5px;
+        background-color: lightblue;
+        font-weight: bolder;
+        margin-left: 30px;
+
+    }
+
+    .fourthbutton {
+
+        height: 30px;
+        width: 90px;
+        border-width: 0px;
+        color: #2e767e;
+        border-radius: 5px;
+        background-color: violet;
+        font-weight: bolder;
+        margin-left: 30px;
+
+    }
+
+    .fifthbutton {
+
+        height: 30px;
+        width: 90px;
+        border-width: 0px;
+        color: #2e767e;
+        border-radius: 5px;
+        background-color: lightpink;
+        font-weight: bolder;
+        margin-left: 30px;
+
+    }
+
+    .sixthbutton {
+
+        height: 30px;
+        width: 90px;
+        border-width: 0px;
+        color: #2e767e;
+        border-radius: 5px;
+        background-color: linen;
+        font-weight: bolder;
+        margin-left: 30px;
+
+    }
+
+    .textalign {
+
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    .cartoon {
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .cartooncard {
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        height: 400px;
+        width: 330px;
+        padding: 10px;
+
+    }
+
+    .cartoonimage {
+
+        height: 300px;
+        width: 100%;
+    }
+
+    .cartoontext {
+        font-size: large;
+        text-decoration: none;
+        color: black;
+    }
+
+    .rateandcart {
+        font-size: x-large;
+        color: #2e767e;
+        font-weight: bold;
+    }
+
+    .cart {
+        margin-left: 220px;
+    }
+
+    .banner {
+
+        background-image: url("./assets/images/banner/b2.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 120px;
+        width: 115%;
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+
+
+    }
+
+    .bannercontent {
+        margin: 10px;
+    }
+
+
+
+    .bannerbutton {
+
+        height: 25px;
+        width: 100px;
+        border-width: 0px;
+        border-radius: 5px;
+
+    }
+
+    .bannerpara {
+
+
+        font-size: large;
+        font-weight: bold;
+        margin: 5px;
+    }
+
+    .bannerheading {
+
+        font-weight: bold;
+        font-size: 19px;
+        margin: 5px;
+
+    }
+
+    .freeseason {
+
+        height: 450px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 30px;
+        gap: 20px;
+
+    }
+
+    .free {
+
+        height: 210px;
+        width: 100%;
+        background-image: url("./assets/images/banner/b17.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+
+    }
+
+    .season {
+
+        height: 220px;
+        width: 110%;
+        background-image: url("./assets/images/banner/b10.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .freecontent {
+
+
+        margin: 40px 0px 0px 10px;
+        color: white;
+    }
+
+    .freebutton {
+        height: 30px;
+        width: 90px;
+        margin: 5px;
+        border-width: 0px;
+        border-radius: 5px;
+        color: white;
+        background-color: rgba(211, 142, 24, 0.773);
+    }
+
+    .seasonbutton {
+        height: 30px;
+        width: 90px;
+        margin: 5px;
+        border-width: 0px;
+        border-radius: 5px;
+        color: white;
+        background-color: #2e767e;
+    }
+
+
+    .seasoncontent {
+        margin: 40px 0px 0px 10px;
+        color: white;
+    }
+
+    .salefootwearshirts {
+        height: 650px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        margin: 30px;
+    }
+
+    .sale {
+
+        height: 205px;
+        width: 100%;
+        background-image: url("./assets/images/banner/b7.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+
+
+
+    }
+
+    .footwear {
+        height: 190px;
+        width: 100%;
+        background-image: url("./assets/images/banner/b4.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+
+    }
+
+    .shirts {
+
+        height: 220px;
+        width: 100%;
+        background-image: url("./assets/images/banner/b18.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .footwearcontent {
+        color: brown;
+        font-weight: bold;
+        margin-left: 30px;
+    }
+
+    .footwearheading1 {
+
+        color: white;
+        margin: 80px 0px 0px 30px;
+    }
+
+    .footwearheading2 {
+
+        color: white;
+        font-size: 25px;
+        margin: 30px 0px 0px 30px;
+    }
+
+    .footwearheading3 {
+
+        color: white;
+        margin: 80px 0px 0px 30px;
+    }
+
+    .signupbanner {
+
+        height: 150px;
+        width: 100%;
+        background-image: url("./assets/images/banner/b14.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        background-color: #041e41;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        font-weight: bold;
+        margin-left: 30px;
+        margin-top: 20px;
+        
+    }
+
+    .signupheading {
+        color: white;
+        font-size: 23px;
+    }
+
+    .input {
+
+        height: 30px;
+        width: 200px;
+        border-width: 0px;
+        border-radius: 4px 0px 0px 4px;
+        margin: 0px;
+
+    }
+
+    .inputbutton {
+
+        height: 30px;
+        width: 80px;
+        border-width: 0px;
+        border-radius: 0px 4px 4px 0px;
+        color: white;
+        background-color: #2e767e;
+        margin: 0px;
+    }
+
+    .footer {
+
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        justify-content: space-evenly;
+        gap: 20px;
+        
+    }
+
+    .contact {
+
+       
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+       
+    }
+
+    .about {
+
+        width: 200px;
+        display: flex;
+        width: 40%;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+        
+       
+    }
+
+    .myaccount {
+
+        
+        width: 200px;
+        display: flex;
+        width: 40%;
+        flex-direction: column;
+        gap: 10px;
+      padding: 10px;
+      
+    }
+
+    .installapp {
+
+        
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+      
+      
+    }
+
+    .footerlogo {
+
+        height: 50px;
+        width: 200px;
+    }
+
+    .footerbold {
+
+        font-weight: bolder;
+        font-size: large;
+    }
+
+    .footercontact {
+
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    .lighter{
+        font-weight: lighter;
+    }
+
+    .footerbutton {
+
+        border-radius: 4px;
+        border: 1px solid gray;
+        margin: 10px;
+       
+    }
+
+    .buttonimage {
+
+        height: 35px;
+        width: 150px;
+    }
+
+    .emojicolor {
+
+        color: black;
+    }
+
+    .linkemoji >a>i:hover{
+
+        color: #2e767e;
+       
+    }
+
+}
+
+
+/* home css completed ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+/* Shop css started////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ */
+
+
+ *{
+    margin: 0px;
+    padding:0px;
+ }
+
+ /* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+
+    
+    .headerpart {
+
+        height: 50px;
+        padding: 10px 120px;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        box-shadow: 0px 3px cadetblue;
+        position: sticky;
+        top: 0px;
+        background-color: antiquewhite;
+
+
+
+    }
+
+
+    .aitlogo {
+        height: 100%;
+        width: 200px;
+
+    }
+
+    .headerlist {
+
+        list-style: none;
+        display: flex;
+        gap: 50px;
+        height: 50px;
+        align-items: center;
+        font-weight: 600;
+        font-size: larger;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+    #hamberger {
+        display: none;
+    }
+
+    .link {
+        color: black;
+        text-decoration: none;
+    }
+
+    .headerlist .link>li:hover {
+
+        text-decoration: underline;
+        color: #2e767e;
+    }
+
+    .shopbanner {
+
+        height: 300px;
+        width: 100%;
+        background-image: url("./assets/images/banner/b1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .shopbannerheading {
+
+        color: white;
+        font-size: 55px;
+        font-weight: bold;
+    }
+
+    .shopbannerpara {
+
+        color: white;
+        font-weight: bold;
+        font-size: x-large;
+    }
+
+    .shopbutton {
+        padding: 10px;
+        background-color: #2e767e;
+        border-width: 0px;
+        font-size: large;
+        border-radius: 3px 3px 0px 0px ;
+
+    }
+    .onetwoarrow {
+        display: flex;
+        gap: 5px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ##Screen = B/w 1025px to 1280px/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  */
+  
+  @media (min-width: 1024px) and (max-width: 1280px) {
+    
+
+        
+    .headerpart {
+
+        height: 50px;
+        padding: 10px 120px;
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 0px 3px cadetblue;
+        position: sticky;
+        top: 0px;
+        background-color: antiquewhite;
+
+    }
+
+
+    .aitlogo {
+        height: 100%;
+        width: 200px;
+    }
+
+    .headerlist {
+
+        list-style: none;
+        display: flex;
+        gap: 50px;
+        height: 50px;
+        align-items: center;
+        font-weight: 600;
+        font-size: larger;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+
+    #hamberger {
+
+        display: none;
+    }
+
+    .headerlist>li:hover {
+
+        text-decoration: underline;
+        color: #2e767e;
+    }
+
+    .shopbanner {
+
+        height: 300px;
+        width: 100%;
+        background-image: url("./assets/images/banner/b1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .shopbannerheading {
+
+        color: white;
+        font-size: 55px;
+        font-weight: bold;
+    }
+
+    .shopbannerpara {
+
+        color: white;
+        font-weight: bold;
+        font-size: x-large;
+    }
+
+    .shopbutton {
+        padding: 10px;
+        background-color: #2e767e;
+        border-width: 0px;
+        font-size: large;
+        border-radius: 3px 3px 0px 0px ;
+
+    }
+    .onetwoarrow {
+        display: flex;
+        gap: 5px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+
+
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)/////////////////////////////////////////////////////////////////////////////////////////////////
+    ##Screen = B/w 768px to 1024px///////////////////////////////////////////////////////////////////////////////////////////////////////
+  */
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    
+
+    .headerpart {
+
+        height: 50px;
+        padding: 10px 120px;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        box-shadow: 0px 3px cadetblue;
+        position: sticky;
+        top: 0px;
+        background-color: antiquewhite;
+
+    }
+
+
+    .aitlogo {
+        height: 100%;
+        width: 150px;
+    }
+
+    .headerlist {
+
+        list-style: none;
+        display: flex;
+        gap: 40px;
+        height: 55px;
+        align-items: center;
+        font-weight: 600;
+        font-size: larger;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+
+    #hamberger {
+
+        display: none;
+    }
+
+    .link {
+        color: black;
+        text-decoration: none;
+    }
+
+
+    .headerlist .link>li:hover {
+
+        text-decoration: underline;
+        color: #2e767e;
+    }
+
+    .shopbanner {
+
+        height: 200px;
+        width: 100%;
+        background-image: url("./assets/images/banner/b1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .shopbannerheading {
+
+        color: white;
+        font-size: 45px;
+        font-weight: bold;
+    }
+
+    .shopbannerpara {
+
+        color: white;
+        font-weight: bold;
+        font-size: large;
+    }
+
+    .shopbutton {
+        padding: 10px;
+        background-color: #2e767e;
+        border-width: 0px;
+        font-size: large;
+        border-radius: 3px 3px 0px 0px ;
+
+    }
+    .onetwoarrow {
+        display: flex;
+        gap: 5px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+
+    
+
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)//////////////////////////////////////////////////////////////////////////////////////////////////
+    ##Screen = B/w 768px to 1024px///////////////////////////////////////////////////////////////////////////////////////////////////////////
+  */
+  
+  @media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+    
+
+    .headerpart {
+
+        height: 50px;
+        padding: 10px 50px;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        box-shadow: 0px 3px cadetblue;
+        position: sticky;
+        top: 0px;
+
+    }
+
+
+    .aitlogo {
+        height: 100%;
+        width: 150px;
+    }
+
+    .headerlist {
+
+        list-style: none;
+        display: flex;
+        gap: 50px;
+        height: 50px;
+        align-items: center;
+        font-weight: 600;
+        font-size: larger;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+    #hamberger {
+
+        display: none;
+    }
+
+    .link {
+        color: black;
+        text-decoration: none;
+    }
+
+    .headerlist .link>li:hover {
+
+        text-decoration: underline;
+        color: #2e767e;
+    }
+
+    .shopbanner {
+
+        height: 300px;
+        width: 100%;
+        background-image: url("./assets/images/banner/b1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+       
+    }
+
+    .shopbannerheading {
+
+        color: white;
+        font-size: 45px;
+        font-weight: bold;
+    }
+
+    .shopbannerpara {
+
+        color: white;
+        font-weight: bold;
+        font-size: large;
+    }
+
+    .shopbutton {
+        padding: 10px;
+        background-color: #2e767e;
+        border-width: 0px;
+        font-size: large;
+        border-radius: 3px 3px 0px 0px ;
+
+    }
+    .onetwoarrow {
+        display: flex;
+        gap: 5px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+
+
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)///////////////////////////////////////////////////////////////////////////////////////
+    ##Screen = B/w 481px to 767px /////////////////////////////////////////////////////////////////////////////////
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+
+    .headerpart {
+
+        height: 50px;
+        padding: 10px 10px;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        box-shadow: 0px 3px cadetblue;
+        position: sticky;
+        top: 0px;
+        background-color: antiquewhite;
+    }
+
+
+    .aitlogo {
+        height: 100%;
+        width: 150px;
+    }
+
+    .headerlist {
+
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        height: 50px;
+        align-items: center;
+        font-weight: 600;
+        font-size: large;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+
+    #hamberger {
+
+        display: none;
+    }
+
+    .link {
+        color: black;
+        text-decoration: none;
+    }
+
+
+    .headerlist .link>li:hover {
+
+        text-decoration: underline;
+        color: #2e767e;
+    }
+
+    .shopbanner {
+
+        height: 100px;
+        width: 100%;
+        background-image: url("./assets/images/banner/b1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .shopbannerheading {
+
+        color: white;
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .shopbannerpara {
+
+        color: white;
+        font-weight: bold;
+        font-size: large;
+    }
+
+    .shopbutton {
+        padding: 10px;
+        background-color: #2e767e;
+        border-width: 0px;
+        font-size: large;
+        border-radius: 3px 3px 0px 0px ;
+
+    }
+    .onetwoarrow {
+        display: flex;
+        gap: 5px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    
+
+
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)/////////////////////////////////////////////////////////////////////////////////
+    ##Screen = B/w 320px to 479px/////////////////////////////???????????????////////////////////////////////////////////////////////
+  */
+  
+  @media  (max-width: 480px) {
+
+
+    
+    .headerpart {
+
+        height: 50px;
+        width: 100%;
+        display: flex;
+        padding: 10px 20px;
+        justify-content: space-between;
+        align-content: center;
+        box-shadow: 0px 3px cadetblue;
+        position: sticky;
+        top: 0px;
+        background-color: antiquewhite;
+
+    }
+
+
+    .aitlogo {
+        height: 100%;
+        width: 100px;
+    }
+
+    .headerlist {
+
+        list-style: none;
+        display: flex;
+        gap: 10px;
+        height: 50px;
+        width: 100%;
+        align-items: center;
+        font-weight: 600;
+        font-size: small;
+        font-family: 'Times New Roman', Times, serif;
+
+
+    }
+
+    #hamberger {
+
+        display: none;
+    }
+
+    .link {
+        color: black;
+        text-decoration: none;
+    }
+
+
+
+    .headerlist .link>li:hover {
+
+        text-decoration: underline;
+        color: #2e767e;
+    }
+
+    .shopbanner {
+
+        height: 90px;
+        width: 110%;
+        background-image: url("./assets/images/banner/b1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .shopbannerheading {
+
+        color: white;
+        font-size: 33px;
+        font-weight: bold;
+    }
+
+    .shopbannerpara {
+
+        color: white;
+        font-weight: bold;
+        font-size: large;
+    }
+
+    .shopbutton {
+        padding: 10px;
+        background-color: #2e767e;
+        border-width: 0px;
+        font-size: large;
+        border-radius: 3px 3px 0px 0px ;
+
+    }
+    .onetwoarrow {
+        display: flex;
+        gap: 5px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+
+
+
+  }
+
+  /* shop css completed ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+/* blog css started////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ */
+
+
+ *{
+    margin: 0px;
+    padding:0px;
+ }
+
+ /* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+
+    
+    .headerpart {
+
+        height: 50px;
+        padding: 10px 120px;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        box-shadow: 0px 3px cadetblue;
+        position: sticky;
+        top: 0px;
+        background-color: antiquewhite;
+
+
+
+    }
+
+
+    .aitlogo {
+        height: 100%;
+        width: 200px;
+
+    }
+
+    .headerlist {
+
+        list-style: none;
+        display: flex;
+        gap: 50px;
+        height: 50px;
+        align-items: center;
+        font-weight: 600;
+        font-size: larger;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+    #hamberger {
+        display: none;
+    }
+
+    .link {
+        color: black;
+        text-decoration: none;
+    }
+
+    .headerlist .link>li:hover {
+
+        text-decoration: underline;
+        color: #2e767e;
+    }
+
+    .blogbanner {
+
+        height: 300px;
+        width: 100%;
+        background-image: url("./assets/images/banner/b19.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blogbannerheading {
+
+        color: white;
+        font-size: 55px;
+        font-weight: bold;
+    }
+
+    .blogbannerpara {
+
+        color: white;
+        font-weight: bold;
+        font-size: x-large;
+    }
+
+    .blogflex {
+
+        display: flex;
+        flex-direction: column;   
+    }
+
+    .blogcontainer {
+
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        margin-top: 40px;
+       
+    }
+
+    .blogimage {
+
+        height: 300px;
+        width: 450px;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+       
+    }
+
+    .imagesize {
+        height: 300px;
+        width: 450px;
+        border-radius: 5px;
+    }
+
+    .blogcontent {
+
+        height: 300px;
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+        
+    }
+
+    .blogcontentheading {
+
+        padding: 10px;
+        font-size: x-large;
+        font-weight: bold;
+    }
+
+    .blogcontentpara {
+
+        padding: 10px;
+        font-size: large;
+
+    }
+
+    .blogcontentsecondpara {
+
+        padding: 10px;
+        font-weight: bold;
+    }
+
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ##Screen = B/w 1025px to 1280px/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  */
+  
+  @media (min-width: 1024px) and (max-width: 1280px) {
+    
+
+        
+    .headerpart {
+
+        height: 50px;
+        padding: 10px 120px;
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 0px 3px cadetblue;
+        position: sticky;
+        top: 0px;
+        background-color: antiquewhite;
+
+    }
+
+
+    .aitlogo {
+        height: 100%;
+        width: 200px;
+    }
+
+    .headerlist {
+
+        list-style: none;
+        display: flex;
+        gap: 50px;
+        height: 50px;
+        align-items: center;
+        font-weight: 600;
+        font-size: larger;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+
+    #hamberger {
+
+        display: none;
+    }
+
+    .headerlist>li:hover {
+
+        text-decoration: underline;
+        color: #2e767e;
+    }
+    .blogbanner {
+
+        height: 300px;
+        width: 100%;
+        background-image: url("./assets/images/banner/b19.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .blogbannerheading {
+
+        color: white;
+        font-size: 55px;
+        font-weight: bold;
+    }
+
+    .blogbannerpara {
+
+        color: white;
+        font-weight: bold;
+        font-size: x-large;
+    }
+
+    .blogflex {
+
+        display: flex;
+        flex-direction: column;   
+    }
+
+    .blogcontainer {
+
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        margin-top: 40px;
+       
+    }
+
+    .blogimage {
+
+        height: 300px;
+        width: 450px;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+       
+    }
+
+    .imagesize {
+        height: 300px;
+        width: 450px;
+        border-radius: 5px;
+    }
+
+    .blogcontent {
+
+        height: 300px;
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+        
+    }
+
+    .blogcontentheading {
+
+        padding: 10px;
+        font-size: x-large;
+        font-weight: bold;
+    }
+
+    .blogcontentpara {
+
+        padding: 10px;
+        font-size: large;
+
+    }
+
+    .blogcontentsecondpara {
+
+        padding: 10px;
+        font-weight: bold;
+    }
+
+
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)/////////////////////////////////////////////////////////////////////////////////////////////////
+    ##Screen = B/w 768px to 1024px///////////////////////////////////////////////////////////////////////////////////////////////////////
+  */
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    
+
+    .headerpart {
+
+        height: 50px;
+        padding: 10px 120px;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        box-shadow: 0px 3px cadetblue;
+        position: sticky;
+        top: 0px;
+        background-color: antiquewhite;
+
+    }
+
+
+    .aitlogo {
+        height: 100%;
+        width: 150px;
+    }
+
+    .headerlist {
+
+        list-style: none;
+        display: flex;
+        gap: 50px;
+        height: 55px;
+        align-items: center;
+        font-weight: 600;
+        font-size: larger;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+
+    #hamberger {
+
+        display: none;
+    }
+
+    .link {
+        color: black;
+        text-decoration: none;
+    }
+
+
+    .headerlist .link>li:hover {
+
+        text-decoration: underline;
+        color: #2e767e;
+    }
+
+    .blogbanner {
+
+        height: 200px;
+        width: 100%;
+        background-image: url("./assets/images/banner/b19.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+
+    .blogbannerheading {
+
+        color: white;
+        font-size: 45px;
+        font-weight: bold;
+    }
+
+    .blogbannerpara {
+
+        color: white;
+        font-weight: bold;
+        font-size: large;
+    }
+
+    .blogflex {
+
+        display: flex;
+        flex-direction: column;   
+    }
+
+    .blogcontainer {
+
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        margin-top: 40px;
+       
+    }
+
+    .blogimage {
+
+        height: 300px;
+        width: 370px;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+       
+    }
+
+    .imagesize {
+        height: 300px;
+        width: 370px;
+        border-radius: 5px;
+    }
+
+    .blogcontent {
+
+        height: 300px;
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+        
+    }
+
+    .blogcontentheading {
+
+        padding: 10px;
+        font-size: x-large;
+        font-weight: bold;
+    }
+
+    .blogcontentpara {
+
+        padding: 10px;
+        font-size: medium;
+
+    }
+
+    .blogcontentsecondpara {
+
+        padding: 10px;
+        font-weight: bold;
+    }
+
+    
+
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)//////////////////////////////////////////////////////////////////////////////////////////////////
+    ##Screen = B/w 768px to 1024px///////////////////////////////////////////////////////////////////////////////////////////////////////////
+  */
+  
+  @media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+    
+
+    .headerpart {
+
+        height: 50px;
+        padding: 10px 50px;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        box-shadow: 0px 3px cadetblue;
+        position: sticky;
+        top: 0px;
+
+    }
+
+
+    .aitlogo {
+        height: 100%;
+        width: 150px;
+    }
+
+    .headerlist {
+
+        list-style: none;
+        display: flex;
+        gap: 50px;
+        height: 50px;
+        align-items: center;
+        font-weight: 600;
+        font-size: larger;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+    #hamberger {
+
+        display: none;
+    }
+
+    .link {
+        color: black;
+        text-decoration: none;
+    }
+
+    .headerlist .link>li:hover {
+
+        text-decoration: underline;
+        color: #2e767e;
+    }
+
+    .blogbanner {
+
+        height: 300px;
+        width: 100%;
+        background-image: url("./assets/images/banner/b19.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    .blogbannerheading {
+
+        color: white;
+        font-size: 45px;
+        font-weight: bold;
+    }
+
+    .blogbannerpara {
+
+        color: white;
+        font-weight: bold;
+        font-size: large;
+    }
+
+    .blogflex {
+
+        display: flex;
+        flex-direction: column;   
+    }
+
+    .blogcontainer {
+
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        margin-top: 40px;
+       
+    }
+
+    .blogimage {
+
+        height: 300px;
+        width: 450px;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+       
+    }
+
+    .imagesize {
+        height: 300px;
+        width: 450px;
+        border-radius: 5px;
+    }
+
+    .blogcontent {
+
+        height: 300px;
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+        
+    }
+
+    .blogcontentheading {
+
+        padding: 10px;
+        font-size: x-large;
+        font-weight: bold;
+    }
+
+    .blogcontentpara {
+
+        padding: 10px;
+        font-size: large;
+
+    }
+
+    .blogcontentsecondpara {
+
+        padding: 10px;
+        font-weight: bold;
+    }
+
+
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)///////////////////////////////////////////////////////////////////////////////////////
+    ##Screen = B/w 481px to 767px /////////////////////////////////////////////////////////////////////////////////
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+
+    .headerpart {
+
+        height: 50px;
+        padding: 10px 10px;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        box-shadow: 0px 3px cadetblue;
+        position: sticky;
+        top: 0px;
+        background-color: antiquewhite;
+    }
+
+
+    .aitlogo {
+        height: 100%;
+        width: 150px;
+    }
+
+    .headerlist {
+
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        height: 50px;
+        align-items: center;
+        font-weight: 600;
+        font-size: large;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+
+    #hamberger {
+
+        display: none;
+    }
+
+    .link {
+        color: black;
+        text-decoration: none;
+    }
+
+
+    .headerlist .link>li:hover {
+
+        text-decoration: underline;
+        color: #2e767e;
+    }
+
+    .blogbanner {
+
+        height: 100px;
+        width: 100%;
+        background-image: url("./assets/images/banner/b19.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .blogbannerheading {
+
+        color: white;
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .blogbannerpara {
+
+        color: white;
+        font-weight: bold;
+        font-size: large;
+    }
+
+    .blogflex {
+
+        display: flex;
+        flex-direction: column;   
+    }
+
+    .blogcontainer {
+
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 40px;
+        
+       
+    }
+
+    .blogimage {
+
+        height: 300px;
+        width: 300px;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+       
+    }
+
+    .imagesize {
+        height: 300px;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .blogcontent {
+
+        height: 300px;
+        width: 450px;
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+        
+    }
+
+    .blogcontentheading {
+
+        padding: 0px;
+        font-size: larger;
+        font-weight: bold;
+    }
+
+    .blogcontentpara {
+
+        padding: 0px;
+        font-size: large;
+        width: 100%;
+
+    }
+
+    .blogcontentsecondpara {
+
+        padding: 0px;
+        font-weight: bold;
+    }
+
+    
+
+
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)/////////////////////////////////////////////////////////////////////////////////
+    ##Screen = B/w 320px to 479px/////////////////////////////???????????????////////////////////////////////////////////////////////
+  */
+  
+  @media  (max-width: 480px) {
+
+
+    
+    .headerpart {
+
+        height: 50px;
+        width: 100%;
+        display: flex;
+        padding: 10px 20px;
+        justify-content: space-between;
+        align-content: center;
+        box-shadow: 0px 3px cadetblue;
+        position: sticky;
+        top: 0px;
+        background-color: antiquewhite;
+
+    }
+
+
+    .aitlogo {
+        height: 100%;
+        width: 100px;
+    }
+
+    .headerlist {
+
+        list-style: none;
+        display: flex;
+        gap: 10px;
+        height: 50px;
+        width: 100%;
+        align-items: center;
+        font-weight: 600;
+        font-size: small;
+        font-family: 'Times New Roman', Times, serif;
+
+
+    }
+
+    #hamberger {
+
+        display: none;
+    }
+
+    .link {
+        color: black;
+        text-decoration: none;
+    }
+
+
+
+    .headerlist .link>li:hover {
+
+        text-decoration: underline;
+        color: #2e767e;
+    }
+
+    .blogbanner {
+
+        height: 90px;
+        width: 110%;
+        background-image: url("./assets/images/banner/b19.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blogbannerheading {
+
+        color: white;
+        font-size: 33px;
+        font-weight: bold;
+    }
+
+    .blogbannerpara {
+
+        color: white;
+        font-weight: bold;
+        font-size: large;
+    }
+
+    .blogflex {
+
+        display: flex;
+        width: 100%;
+        margin: 10px;
+        flex-direction: column; 
+        justify-content:center;  
+    }
+
+    .blogcontainer {
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        margin-top: 40px;
+       
+    }
+
+    .blogimage {
+
+        height: 300px;
+        width: 100%;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+       
+    }
+
+    .imagesize {
+        height: 300px;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .blogcontent {
+
+        height: 280px;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+        
+    }
+
+    .blogcontentheading {
+
+        padding: 5px;
+        font-size: x-large;
+        font-weight: bold;
+    }
+
+    .blogcontentpara {
+
+        padding: 5px;
+        font-size: large;
+
+    }
+
+    .blogcontentsecondpara {
+
+        padding: 5px;
+        font-weight: bold;
+    }
+
+
+
+  }
+
+
+   /* blog css completed ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+/* about css started////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ */
+
+
+ *{
+    margin: 0px;
+    padding:0px;
+ }
+
+ /* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+
+    
+    .headerpart {
+
+        height: 50px;
+        padding: 10px 120px;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        box-shadow: 0px 3px cadetblue;
+        position: sticky;
+        top: 0px;
+        background-color: antiquewhite;
+    }
+
+
+    .aitlogo {
+        height: 100%;
+        width: 200px;
+
+    }
+
+    .headerlist {
+
+        list-style: none;
+        display: flex;
+        gap: 50px;
+        height: 50px;
+        align-items: center;
+        font-weight: 600;
+        font-size: larger;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+    #hamberger {
+        display: none;
+    }
+
+    .link {
+        color: black;
+        text-decoration: none;
+    }
+
+    .headerlist .link>li:hover {
+
+        text-decoration: underline;
+        color: #2e767e;
+    }
+
+    .aboutbanner {
+
+        height: 300px;
+        width: 100%;
+        background-image: url("./assets/images/about/banner.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutbannerheading {
+
+        color: white;
+        font-size: 55px;
+        font-weight: bold;
+    }
+
+    .aboutbannerpara {
+
+        color: white;
+        font-weight: bold;
+        font-size: x-large;
+    }
+
+    .aboutflex {
+
+        display: flex;
+        flex-direction: column;   
+    }
+
+    .aboutcontainer {
+
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        margin-top: 40px;
+       
+    }
+
+    .aboutimage {
+
+        height: 300px;
+        width: 450px;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+       
+    }
+
+    .aboutimagesize {
+        height: 300px;
+        width: 450px;
+        border-radius: 5px;
+    }
+
+    .aboutcontent {
+
+        height: 300px;
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+        
+    }
+
+    .aboutcontentheading {
+
+        padding: 10px;
+        font-size: x-large;
+        font-weight: bold;
+    }
+
+    .aboutcontentpara {
+
+        padding: 10px;
+        font-size: large;
+
+    }
+
+    .aboutcontentsecondpara {
+
+        padding: 10px;
+        font-weight: bold;
+    }
+
+    .aboutmarginpara {
+
+        font-weight: bold;
+        padding-left: 300px;
+        background-color: gray;
+       
+    }
+
+    .centerheading {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .video {
+
+        margin-top: 30px;
+        height: 450px;
+        border-radius:10px;
+    }
+
+
+
+
+
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ##Screen = B/w 1025px to 1280px/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  */
+  
+  @media (min-width: 1024px) and (max-width: 1280px) {
+    
+
+        
+    .headerpart {
+
+        height: 50px;
+        padding: 10px 120px;
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 0px 3px cadetblue;
+        position: sticky;
+        top: 0px;
+        background-color: antiquewhite;
+
+    }
+
+
+    .aitlogo {
+        height: 100%;
+        width: 200px;
+    }
+
+    .headerlist {
+
+        list-style: none;
+        display: flex;
+        gap: 50px;
+        height: 50px;
+        align-items: center;
+        font-weight: 600;
+        font-size: larger;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+
+    #hamberger {
+
+        display: none;
+    }
+
+    .headerlist>li:hover {
+
+        text-decoration: underline;
+        color: #2e767e;
+    }
+
+    .aboutbanner {
+
+        height: 300px;
+        width: 100%;
+        background-image: url("./assets/images/about/banner.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .aboutbannerheading {
+
+        color: white;
+        font-size: 55px;
+        font-weight: bold;
+    }
+
+    .aboutbannerpara {
+
+        color: white;
+        font-weight: bold;
+        font-size: x-large;
+    } 
+
+    .aboutflex {
+
+        display: flex;
+        flex-direction: column;   
+    }
+
+    .aboutcontainer {
+
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        margin-top: 40px;
+       
+    }
+
+    .aboutimage {
+
+        height: 300px;
+        width: 450px;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+       
+    }
+
+    .aboutimagesize {
+        height: 300px;
+        width: 450px;
+        border-radius: 5px;
+    }
+
+    .aboutcontent {
+
+        height: 300px;
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+        
+    }
+
+    .aboutcontentheading {
+
+        padding: 10px;
+        font-size: x-large;
+        font-weight: bold;
+    }
+
+    .aboutcontentpara {
+
+        padding: 10px;
+        font-size: large;
+
+    }
+
+    .aboutcontentsecondpara {
+
+        padding: 10px;
+        font-weight: bold;
+    }
+
+    .aboutmarginpara {
+
+        font-weight: bold;
+        padding-left: 300px;
+        margin-top: 50px;
+        background-color: gray;
+       
+    }
+
+    .centerheading {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .video {
+
+        margin-top: 30px;
+        height: 450px;
+        border-radius:10px;
+    }
+
+
+
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)/////////////////////////////////////////////////////////////////////////////////////////////////
+    ##Screen = B/w 768px to 1024px///////////////////////////////////////////////////////////////////////////////////////////////////////
+  */
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    
+
+    .headerpart {
+
+        height: 50px;
+        padding: 10px 120px;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        box-shadow: 0px 3px cadetblue;
+        position: sticky;
+        top: 0px;
+        background-color: antiquewhite;
+
+    }
+
+
+    .aitlogo {
+        height: 100%;
+        width: 150px;
+    }
+
+    .headerlist {
+
+        list-style: none;
+        display: flex;
+        gap: 50px;
+        height: 55px;
+        align-items: center;
+        font-weight: 600;
+        font-size: larger;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+
+    #hamberger {
+
+        display: none;
+    }
+
+    .link {
+        color: black;
+        text-decoration: none;
+    }
+
+
+    .headerlist .link>li:hover {
+
+        text-decoration: underline;
+        color: #2e767e;
+    }
+
+    .aboutbanner {
+
+        height: 200px;
+        width: 100%;
+        background-image: url("./assets/images/about/banner.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+
+    .aboutbannerheading {
+
+        color: white;
+        font-size: 45px;
+        font-weight: bold;
+    }
+
+    .aboutbannerpara {
+
+        color: white;
+        font-weight: bold;
+        font-size: large;
+    }
+
+
+    
+    .aboutflex {
+
+        display: flex;
+        flex-direction: column;   
+    }
+
+    .aboutcontainer {
+
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        margin-top: 40px;
+       
+    }
+
+    .aboutimage {
+
+        height: 350px;
+        width: 370px;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+       
+    }
+
+    .aboutimagesize {
+        height: 350px;
+        width: 370px;
+        border-radius: 5px;
+    }
+
+    .aboutcontent {
+
+        height: 350px;
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+        
+    }
+
+    .aboutcontentheading {
+
+        padding: 10px;
+        font-size: x-large;
+        font-weight: bold;
+    }
+
+    .aboutcontentpara {
+
+        padding: 10px;
+        font-size: medium;
+
+    }
+
+    .aboutcontentsecondpara {
+
+        padding: 10px;
+        font-weight: bold;
+    }
+
+    .aboutmarginpara {
+
+        font-weight: bold;
+        padding-left: 290px;
+        margin-top: 50px;
+        background-color: gray;
+       
+    }
+
+    .centerheading {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .video {
+
+        margin-top: 30px;
+        height: 450px;
+        border-radius:10px;
+    }
+    
+
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)//////////////////////////////////////////////////////////////////////////////////////////////////
+    ##Screen = B/w 768px to 1024px///////////////////////////////////////////////////////////////////////////////////////////////////////////
+  */
+  
+  @media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+    
+
+    .headerpart {
+
+        height: 50px;
+        padding: 10px 50px;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        box-shadow: 0px 3px cadetblue;
+        position: sticky;
+        top: 0px;
+
+    }
+
+
+    .aitlogo {
+        height: 100%;
+        width: 150px;
+    }
+
+    .headerlist {
+
+        list-style: none;
+        display: flex;
+        gap: 50px;
+        height: 50px;
+        align-items: center;
+        font-weight: 600;
+        font-size: larger;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+    #hamberger {
+
+        display: none;
+    }
+
+    .link {
+        color: black;
+        text-decoration: none;
+    }
+
+    .headerlist .link>li:hover {
+
+        text-decoration: underline;
+        color: #2e767e;
+    }
+
+    .aboutbanner {
+
+        height: 300px;
+        width: 100%;
+        background-image: url("./assets/images/about/banner.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    .aboutbannerheading {
+
+        color: white;
+        font-size: 45px;
+        font-weight: bold;
+    }
+
+    .aboutbannerpara {
+
+        color: white;
+        font-weight: bold;
+        font-size: large;
+    }
+
+    .aboutflex {
+
+        display: flex;
+        flex-direction: column;   
+    }
+
+    .aboutcontainer {
+
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        margin-top: 40px;
+       
+    }
+
+    .aboutimage {
+
+        height: 420px;
+        width: 450px;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+       
+    }
+
+    .aboutimagesize {
+        height: 420px;
+        width: 450px;
+        border-radius: 5px;
+    }
+
+    .aboutcontent {
+
+        height: 420px;
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+        
+    }
+
+    .aboutcontentheading {
+
+        padding: 10px;
+        font-size: x-large;
+        font-weight: bold;
+    }
+
+    .aboutcontentpara {
+
+        padding: 10px;
+        font-size: large;
+
+    }
+
+    .aboutcontentsecondpara {
+
+        padding: 10px;
+        font-weight: bold;
+    }
+
+    .aboutmarginpara {
+
+        font-weight: bold;
+        padding-left: 130px;
+        background-color: gray;
+       
+    }
+
+    .centerheading {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .video {
+
+        margin-top: 30px;
+        height: 450px;
+        border-radius:10px;
+    }
+
+
+
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)///////////////////////////////////////////////////////////////////////////////////////
+    ##Screen = B/w 481px to 767px /////////////////////////////////////////////////////////////////////////////////
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+
+    .headerpart {
+
+        height: 50px;
+        padding: 10px 10px;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        box-shadow: 0px 3px cadetblue;
+        position: sticky;
+        top: 0px;
+        background-color: antiquewhite;
+    }
+
+
+    .aitlogo {
+        height: 100%;
+        width: 150px;
+    }
+
+    .headerlist {
+
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        height: 50px;
+        align-items: center;
+        font-weight: 600;
+        font-size: large;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+
+    #hamberger {
+
+        display: none;
+    }
+
+    .link {
+        color: black;
+        text-decoration: none;
+    }
+
+
+    .headerlist .link>li:hover {
+
+        text-decoration: underline;
+        color: #2e767e;
+    }
+
+    .aboutbanner {
+
+        height: 100px;
+        width: 100%;
+        background-image: url("./assets/images/about/banner.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .aboutbannerheading {
+
+        color: white;
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .aboutbannerpara {
+
+        color: white;
+        font-weight: bold;
+        font-size: large;
+    }
+
+    
+    .aboutflex {
+
+        display: flex;
+        flex-direction: column;   
+    }
+
+    .aboutcontainer {
+
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 40px;
+        
+       
+    }
+
+    .aboutimage {
+
+        height: 300px;
+        width: 300px;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+       
+    }
+
+    .aboutimagesize {
+        height: 300px;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .aboutcontent {
+
+        height: 300px;
+        width: 450px;
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+        
+    }
+
+    .aboutcontentheading {
+
+        padding: 0px;
+        font-size: larger;
+        font-weight: bold;
+    }
+
+    .aboutcontentpara {
+
+        padding: 0px;
+        font-size: large;
+        width: 100%;
+
+    }
+
+    .aboutcontentsecondpara {
+
+        padding: 0px;
+        font-weight: bold;
+    }
+
+    .aboutmarginpara {
+
+        font-weight: bold;
+        padding-left: 150px;
+        background-color: gray;
+       
+    }
+
+    .centerheading {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .video {
+
+        margin-top: 30px;
+        height: 450px;
+        border-radius:10px;
+    }
+
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)/////////////////////////////////////////////////////////////////////////////////
+    ##Screen = B/w 320px to 479px/////////////////////////////???????????????////////////////////////////////////////////////////////
+  */
+  
+  @media  (max-width: 480px) {
+
+
+    
+    .headerpart {
+
+        height: 50px;
+        width: 100%;
+        display: flex;
+        padding: 10px 20px;
+        justify-content: space-between;
+        align-content: center;
+        box-shadow: 0px 3px cadetblue;
+        position: sticky;
+        top: 0px;
+        background-color: antiquewhite;
+
+    }
+
+
+    .aitlogo {
+        height: 100%;
+        width: 100px;
+    }
+
+    .headerlist {
+
+        list-style: none;
+        display: flex;
+        gap: 10px;
+        height: 50px;
+        width: 100%;
+        align-items: center;
+        font-weight: 600;
+        font-size: small;
+        font-family: 'Times New Roman', Times, serif;
+
+
+    }
+
+    #hamberger {
+
+        display: none;
+    }
+
+    .link {
+        color: black;
+        text-decoration: none;
+    }
+
+
+
+    .headerlist .link>li:hover {
+
+        text-decoration: underline;
+        color: #2e767e;
+    }
+
+    .aboutbanner {
+
+        height: 90px;
+        width: 110%;
+        background-image: url("./assets/images/about/banner.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutbannerheading {
+
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .aboutbannerpara {
+
+        color: white;
+        font-weight: bold;
+        font-size: medium;
+    }
+
+    .aboutflex {
+
+        display: flex;
+        width: 100%;
+        margin: 10px;
+        flex-direction: column; 
+        justify-content:center;  
+    }
+
+    .aboutcontainer {
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        margin-top: 40px;
+       
+    }
+
+    .aboutimage {
+
+        height: 300px;
+        width: 100%;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+       
+    }
+
+    .aboutimagesize {
+        height: 300px;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .aboutcontent {
+
+        height: 350px;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+        
+    }
+
+    .aboutcontentheading {
+
+        padding: 5px;
+        font-size: x-large;
+        font-weight: bold;
+    }
+
+    .aboutcontentpara {
+
+        padding: 5px;
+        font-size: large;
+
+    }
+
+    .aboutcontentsecondpara {
+
+        padding: 5px;
+        font-weight: bold;
+    }
+
+    .aboutmarginpara {
+
+        font-weight: bold;
+        padding-left: 180px;
+        background-color: gray;
+       
+    }
+
+    .centerheading {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .video {
+
+        margin-top: 30px;
+        height: 265px;
+        border-radius:10px;
+    }
+
+
+
+
+
+  }
+
+
+     /* about css completed ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+/* contact css started////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ */
+
+
+ *{
+    margin: 0px;
+    padding:0px;
+ }
+
+ /* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+
+    
+    .headerpart {
+
+        height: 50px;
+        padding: 10px 120px;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        box-shadow: 0px 3px cadetblue;
+        position: sticky;
+        top: 0px;
+        background-color: antiquewhite;
+    }
+
+
+    .aitlogo {
+        height: 100%;
+        width: 200px;
+
+    }
+
+    .headerlist {
+
+        list-style: none;
+        display: flex;
+        gap: 50px;
+        height: 50px;
+        align-items: center;
+        font-weight: 600;
+        font-size: larger;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+    #hamberger {
+        display: none;
+    }
+
+    .link {
+        color: black;
+        text-decoration: none;
+    }
+
+    .headerlist .link>li:hover {
+
+        text-decoration: underline;
+        color: #2e767e;
+    }
+
+    .contactflex {
+
+        display: flex;
+        margin-top: 40px;
+        padding: 10px;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .contactcontent {
+
+        height: 350px;
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    }
+
+    .mapcontent {
+
+        height: 350px;
+        width: 500px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    }
+
+    .contactcontent>h2{
+        padding: 10px;
+    }
+    .contactcontent>h3{
+        padding: 10px;
+    }
+
+    .contactcontent>p{
+        padding: 10px;
+    }
+
+    .contactcontent p>i{
+        padding-right: 10px;
+    }
+
+    .saiform {
+        margin-top: 40px;
+        height:330px;
+        width: 100%;
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+     
+    }
+
+    .finalform{
+
+       
+        height: 330px;
+        width: 400px;
+        padding-left: 20px;
+       
+    }
+
+   .finalform>p{
+    padding: 5px;
+   }
+
+   .finalform>h2 {
+    padding: 5px;
+   }
+
+   .finalform>input {
+
+    height: 30px;
+    width: 350px;
+    border-width: 0px;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+   }
+
+   .finalform>button {
+
+    padding: 5px;
+    width: 90px;
+    color: white;
+    border-width: 0px;
+    background-color: #2e767e;
+    border-radius: 4px;
+   }
+
+   
+
+
+    .contactthreepeople {
+
+ 
+        height: 330px;
+        width: 500px;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .contactcontentpeople {
+
+        
+        height: 80px;
+        width: 100%px;
+        display: flex;
+        justify-content: end;align-items: center;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .peopleimages {
+
+        height: 60px;
+       
+    }
+
+    .peopleinfo {
+
+        padding-left: 10px;
+        height: 80px;
+      
+    }
+
+    .contactsignupbanner {
+
+        height: 150px;
+        width: 100%;
+        background-image: url("./assets/images/banner/b14.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        background-color: #041e41;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-weight: bold;
+        margin-top: 100px;
+    }
+
+    .contactsignupheading {
+        color: white;
+        font-size: 33px;
+    }
+
+    .contactinput {
+
+        height: 40px;
+        width: 340px;
+        border-width: 0px;
+        border-radius: 4px 0px 0px 4px;
+        margin: 0px;
+
+    }
+
+    .contactinputbutton {
+
+        height: 40px;
+        width: 80px;
+        border-width: 0px;
+        border-radius: 0px 4px 4px 0px;
+        color: white;
+        background-color: #2e767e;
+        margin: 0px;
+    }
+    
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ##Screen = B/w 1025px to 1280px/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  */
+  
+  @media (min-width: 1024px) and (max-width: 1280px) {
+    
+
+        
+    .headerpart {
+
+        height: 50px;
+        padding: 10px 120px;
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 0px 3px cadetblue;
+        position: sticky;
+        top: 0px;
+        background-color: antiquewhite;
+
+    }
+
+
+    .aitlogo {
+        height: 100%;
+        width: 200px;
+    }
+
+    .headerlist {
+
+        list-style: none;
+        display: flex;
+        gap: 50px;
+        height: 50px;
+        align-items: center;
+        font-weight: 600;
+        font-size: larger;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+
+    #hamberger {
+
+        display: none;
+    }
+
+    .headerlist>li:hover {
+
+        text-decoration: underline;
+        color: #2e767e;
+    }
+
+    .contactflex {
+
+        display: flex;
+        margin-top: 40px;
+        padding: 10px;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .contactcontent {
+
+        height: 350px;
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    }
+
+    .mapcontent {
+
+        height: 350px;
+        width: 500px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    }
+
+    .contactcontent>h2{
+        padding: 10px;
+    }
+    .contactcontent>h3{
+        padding: 10px;
+    }
+
+    .contactcontent>p{
+        padding: 10px;
+    }
+
+    .contactcontent p>i{
+        padding-right: 10px;
+    }
+
+
+    .saiform {
+        margin-top: 40px;
+        height:330px;
+        width: 100%;
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+     
+    }
+
+    .finalform{
+
+       
+        height: 330px;
+        width: 400px;
+        padding-left: 20px;
+       
+    }
+
+   .finalform>p{
+    padding: 5px;
+   }
+
+   .finalform>h2 {
+    padding: 5px;
+   }
+
+   .finalform>input {
+
+    height: 30px;
+    width: 350px;
+    border-width: 0px;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+   }
+
+   .finalform>button {
+
+    padding: 5px;
+    width: 90px;
+    color: white;
+    border-width: 0px;
+    background-color: #2e767e;
+    border-radius: 4px;
+   }
+
+   
+
+
+    .contactthreepeople {
+
+ 
+        height: 330px;
+        width: 500px;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .contactcontentpeople {
+
+        
+        height: 80px;
+        width: 100%px;
+        display: flex;
+        justify-content: end;align-items: center;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .peopleimages {
+
+        height: 60px;
+       
+    }
+
+    .peopleinfo {
+
+        padding-left: 10px;
+        height: 80px;
+      
+    }
+
+    .contactsignupbanner {
+
+        height: 150px;
+        width: 100%;
+        background-image: url("./assets/images/banner/b14.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        background-color: #041e41;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-weight: bold;
+        margin-top: 100px;
+    }
+
+    .contactsignupheading {
+        color: white;
+        font-size: 33px;
+    }
+
+    .contactinput {
+
+        height: 40px;
+        width: 340px;
+        border-width: 0px;
+        border-radius: 4px 0px 0px 4px;
+        margin: 0px;
+
+    }
+
+    .contactinputbutton {
+
+        height: 40px;
+        width: 80px;
+        border-width: 0px;
+        border-radius: 0px 4px 4px 0px;
+        color: white;
+        background-color: #2e767e;
+        margin: 0px;
+    }
+    
+
+
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)/////////////////////////////////////////////////////////////////////////////////////////////////
+    ##Screen = B/w 768px to 1024px///////////////////////////////////////////////////////////////////////////////////////////////////////
+  */
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    
+
+    .headerpart {
+
+        height: 50px;
+        padding: 10px 120px;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        box-shadow: 0px 3px cadetblue;
+        position: sticky;
+        top: 0px;
+        background-color: antiquewhite;
+
+    }
+
+
+    .aitlogo {
+        height: 100%;
+        width: 150px;
+    }
+
+    .headerlist {
+
+        list-style: none;
+        display: flex;
+        gap: 50px;
+        height: 55px;
+        align-items: center;
+        font-weight: 600;
+        font-size: larger;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+
+    #hamberger {
+
+        display: none;
+    }
+
+    .link {
+        color: black;
+        text-decoration: none;
+    }
+
+
+    .headerlist .link>li:hover {
+
+        text-decoration: underline;
+        color: #2e767e;
+    }
+
+    .contactflex {
+
+        display: flex;
+        margin-top: 40px;
+        padding: 10px;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .contactcontent {
+
+        height: 350px;
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    }
+
+    .mapcontent {
+
+        height: 350px;
+        width: 500px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    }
+
+    .contactcontent>h2{
+        padding: 10px;
+    }
+    .contactcontent>h3{
+        padding: 10px;
+    }
+
+    .contactcontent>p{
+        padding: 10px;
+    }
+
+    .contactcontent p>i{
+        padding-right: 10px;
+    }
+
+    .saiform {
+        margin-top: 40px;
+        height:330px;
+        width: 100%;
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+     
+    }
+
+    .finalform{
+
+       
+        height: 330px;
+        width: 400px;
+        padding-left: 20px;
+       
+    }
+
+   .finalform>p{
+    padding: 5px;
+   }
+
+   .finalform>h2 {
+    padding: 5px;
+   }
+
+   .finalform>input {
+
+    height: 30px;
+    width: 350px;
+    border-width: 0px;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+   }
+
+   .finalform>button {
+
+    padding: 5px;
+    width: 90px;
+    color: white;
+    border-width: 0px;
+    background-color: #2e767e;
+    border-radius: 4px;
+   }
+
+   
+
+
+    .contactthreepeople {
+
+ 
+        height: 330px;
+        width: 500px;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .contactcontentpeople {
+
+        
+        height: 80px;
+        width: 100%px;
+        display: flex;
+        justify-content: end;align-items: center;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .peopleimages {
+
+        height: 60px;
+       
+    }
+
+    .peopleinfo {
+
+        padding-left: 10px;
+        height: 80px;
+      
+    }
+
+    .contactsignupbanner {
+
+        height: 150px;
+        width: 100%;
+        background-image: url("./assets/images/banner/b14.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        background-color: #041e41;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        font-weight: bold;
+        margin-top: 100px;
+    }
+
+    .contactsignupheading {
+        color: white;
+        font-size: 33px;
+    }
+
+    .contactinput {
+
+        height: 40px;
+        width: 340px;
+        border-width: 0px;
+        border-radius: 4px 0px 0px 4px;
+        margin: 0px;
+
+    }
+
+    .contactinputbutton {
+
+        height: 40px;
+        width: 80px;
+        border-width: 0px;
+        border-radius: 0px 4px 4px 0px;
+        color: white;
+        background-color: #2e767e;
+        margin: 0px;
+    }
+    
+
+    
+
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)//////////////////////////////////////////////////////////////////////////////////////////////////
+    ##Screen = B/w 768px to 1024px///////////////////////////////////////////////////////////////////////////////////////////////////////////
+  */
+  
+  @media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+    
+
+    .headerpart {
+
+        height: 50px;
+        padding: 10px 50px;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        box-shadow: 0px 3px cadetblue;
+        position: sticky;
+        top: 0px;
+
+    }
+
+
+    .aitlogo {
+        height: 100%;
+        width: 150px;
+    }
+
+    .headerlist {
+
+        list-style: none;
+        display: flex;
+        gap: 50px;
+        height: 50px;
+        align-items: center;
+        font-weight: 600;
+        font-size: larger;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+    #hamberger {
+
+        display: none;
+    }
+
+    .link {
+        color: black;
+        text-decoration: none;
+    }
+
+    .headerlist .link>li:hover {
+
+        text-decoration: underline;
+        color: #2e767e;
+    }
+
+    .contactflex {
+
+        display: flex;
+        margin-top: 40px;
+        padding: 10px;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .contactcontent {
+
+        height: 350px;
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    }
+
+    .mapcontent {
+
+        height: 350px;
+        width: 500px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    }
+
+    .contactcontent>h2{
+        padding: 10px;
+    }
+    .contactcontent>h3{
+        padding: 10px;
+    }
+
+    .contactcontent>p{
+        padding: 10px;
+    }
+
+    .contactcontent p>i{
+        padding-right: 10px;
+    }
+
+    .saiform {
+        margin-top: 40px;
+        height:330px;
+        width: 100%;
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+     
+    }
+
+    .finalform{
+
+       
+        height: 330px;
+        width: 400px;
+        padding-left: 20px;
+       
+    }
+
+   .finalform>p{
+    padding: 5px;
+   }
+
+   .finalform>h2 {
+    padding: 5px;
+   }
+
+   .finalform>input {
+
+    height: 30px;
+    width: 350px;
+    border-width: 0px;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+   }
+
+   .finalform>button {
+
+    padding: 5px;
+    width: 90px;
+    color: white;
+    border-width: 0px;
+    background-color: #2e767e;
+    border-radius: 4px;
+   }
+
+   
+
+
+    .contactthreepeople {
+
+ 
+        height: 330px;
+        width: 500px;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .contactcontentpeople {
+
+        
+        height: 80px;
+        width: 100%px;
+        display: flex;
+        justify-content: end;align-items: center;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .peopleimages {
+
+        height: 60px;
+       
+    }
+
+    .peopleinfo {
+
+        padding-left: 10px;
+        height: 80px;
+      
+    }
+
+    .contactsignupbanner {
+
+        height: 150px;
+        width: 100%;
+        background-image: url("./assets/images/banner/b14.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        background-color: #041e41;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        font-weight: bold;
+        margin-top: 100px;
+    }
+
+    .contactsignupheading {
+        color: white;
+        font-size: 33px;
+    }
+
+    .contactinput {
+
+        height: 40px;
+        width: 340px;
+        border-width: 0px;
+        border-radius: 4px 0px 0px 4px;
+        margin: 0px;
+
+    }
+
+    .contactinputbutton {
+
+        height: 40px;
+        width: 80px;
+        border-width: 0px;
+        border-radius: 0px 4px 4px 0px;
+        color: white;
+        background-color: #2e767e;
+        margin: 0px;
+    }
+    
+
+
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)///////////////////////////////////////////////////////////////////////////////////////
+    ##Screen = B/w 481px to 767px /////////////////////////////////////////////////////////////////////////////////
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+
+    .headerpart {
+
+        height: 50px;
+        padding: 10px 10px;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        box-shadow: 0px 3px cadetblue;
+        position: sticky;
+        top: 0px;
+        background-color: antiquewhite;
+    }
+
+
+    .aitlogo {
+        height: 100%;
+        width: 150px;
+    }
+
+    .headerlist {
+
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        height: 50px;
+        align-items: center;
+        font-weight: 600;
+        font-size: large;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+
+    #hamberger {
+
+        display: none;
+    }
+
+    .link {
+        color: black;
+        text-decoration: none;
+    }
+
+
+    .headerlist .link>li:hover {
+
+        text-decoration: underline;
+        color: #2e767e;
+    }
+
+    .contactflex {
+
+        display: flex;
+        margin-top: 40px;
+        padding: 10px;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .contactcontent {
+
+        height: 350px;
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    }
+
+    .mapcontent {
+
+        height: 350px;
+        width: 500px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    }
+
+    .contactcontent>h2{
+        padding: 10px;
+    }
+    .contactcontent>h3{
+        padding: 10px;
+    }
+
+    .contactcontent>p{
+        padding: 10px;
+    }
+
+    .contactcontent p>i{
+        padding-right: 10px;
+    }
+
+    .saiform {
+        margin-top: 40px;
+        height:330px;
+        width: 100%;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+     
+    }
+
+    .finalform{
+
+       
+        height: 330px;
+        width: 400px;
+        padding-left: 20px;
+       
+    }
+
+   .finalform>p{
+    padding: 5px;
+   }
+
+   .finalform>h2 {
+    padding: 5px;
+   }
+
+   .finalform>input {
+
+    height: 30px;
+    width: 300px;
+    border-width: 0px;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+   }
+
+   .finalform>button {
+
+    padding: 5px;
+    width: 90px;
+    color: white;
+    border-width: 0px;
+    background-color: #2e767e;
+    border-radius: 4px;
+   }
+
+   
+
+
+    .contactthreepeople {
+
+ 
+        height: 330px;
+        width: 500px;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .contactcontentpeople {
+
+        
+        height: 80px;
+        width: 100%px;
+        display: flex;
+        justify-content: end;align-items: center;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .peopleimages {
+
+        height: 60px;
+       
+    }
+
+    .peopleinfo {
+
+        padding-left: 10px;
+        height: 80px;
+      
+    }
+
+    .contactsignupbanner {
+
+        height: 150px;
+        width: 100%;
+        background-image: url("./assets/images/banner/b14.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        background-color: #041e41;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        font-weight: bold;
+        margin-top: 100px;
+    }
+
+    .contactsignupheading {
+        color: white;
+        font-size: 33px;
+    }
+
+    .contactinput {
+
+        height: 40px;
+        width: 340px;
+        border-width: 0px;
+        border-radius: 4px 0px 0px 4px;
+        margin: 0px;
+
+    }
+
+    .contactinputbutton {
+
+        height: 40px;
+        width: 80px;
+        border-width: 0px;
+        border-radius: 0px 4px 4px 0px;
+        color: white;
+        background-color: #2e767e;
+        margin: 0px;
+    }
+    
+
+
+    
+
+
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)/////////////////////////////////////////////////////////////////////////////////
+    ##Screen = B/w 320px to 479px/////////////////////////////???????????????////////////////////////////////////////////////////////
+  */
+  
+  @media  (max-width: 480px) {
+
+
+    
+    .headerpart {
+
+        height: 50px;
+        width: 100%;
+        display: flex;
+        padding: 10px 20px;
+        justify-content: space-between;
+        align-content: center;
+        box-shadow: 0px 3px cadetblue;
+        position: sticky;
+        top: 0px;
+        background-color: antiquewhite;
+
+    }
+
+
+    .aitlogo {
+        height: 100%;
+        width: 100px;
+    }
+
+    .headerlist {
+
+        list-style: none;
+        display: flex;
+        gap: 10px;
+        height: 50px;
+        width: 100%;
+        align-items: center;
+        font-weight: 600;
+        font-size: small;
+        font-family: 'Times New Roman', Times, serif;
+
+
+    }
+
+    #hamberger {
+
+        display: none;
+    }
+
+    .link {
+        color: black;
+        text-decoration: none;
+    }
+
+
+
+    .headerlist .link>li:hover {
+
+        text-decoration: underline;
+        color: #2e767e;
+    }
+
+    .contactflex {
+
+        display: flex;
+        margin-top: 40px;
+        padding: 10px;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .contactcontent {
+
+        height: 350px;
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    }
+
+    .mapcontent {
+
+        height: 350px;
+        width: 500px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    }
+
+    .contactcontent>h2{
+        padding: 10px;
+    }
+    .contactcontent>h3{
+        padding: 10px;
+    }
+
+    .contactcontent>p{
+        padding: 10px;
+    }
+
+    .contactcontent p>i{
+        padding-right: 10px;
+    }
+
+    .saiform {
+        margin-top: 40px;
+        height:330px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+     
+    }
+
+    .finalform{
+        height: 330px;
+        width: 400px;
+        padding-left: 20px;
+       
+    }
+
+   .finalform>p{
+    padding: 5px;
+   }
+
+   .finalform>h2 {
+    padding: 5px;
+   }
+
+   .finalform>input {
+
+    height: 30px;
+    width: 90%;
+    border-width: 0px;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+   }
+
+   .finalform>button {
+
+    padding: 5px;
+    width: 90px;
+    color: white;
+    border-width: 0px;
+    background-color: #2e767e;
+    border-radius: 4px;
+   }
+
+   
+
+
+    .contactthreepeople {
+
+ 
+        height: 330px;
+        width: 500px;
+        gap: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 70px;
+
+    }
+
+    .contactcontentpeople {
+
+        
+        height: 80px;
+        width: 100%px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;align-items: center;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .peopleimages {
+
+        height: 60px;
+       
+    }
+
+    .peopleinfo {
+
+        padding-left: 10px;
+        height: 80px;
+      
+    }
+
+    .contactsignupbanner {
+
+        height: 150px;
+        width: 100%;
+        background-image: url("./assets/images/banner/b14.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        background-color: #041e41;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        font-weight: bold;
+        margin-left: 30px;
+        margin-top: 450px;
+        
+    }
+
+    .contactsignupheading {
+        color: white;
+        font-size: 23px;
+    }
+
+    .contactinput {
+
+        height: 30px;
+        width: 200px;
+        border-width: 0px;
+        border-radius: 4px 0px 0px 4px;
+        margin: 0px;
+
+    }
+
+    .contactinputbutton {
+
+        height: 30px;
+        width: 80px;
+        border-width: 0px;
+        border-radius: 0px 4px 4px 0px;
+        color: white;
+        background-color: #2e767e;
+        margin: 0px;
+    }
+    
+
+
+
+
+  }
+
+
+      /* contact css completed ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+/* shoppingbag css started////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ */
+
+
+ *{
+    margin: 0px;
+    padding:0px;
+ }
+
+ /* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+
+    
+    .headerpart {
+
+        height: 50px;
+        padding: 10px 120px;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        box-shadow: 0px 3px cadetblue;
+        position: sticky;
+        top: 0px;
+        background-color: antiquewhite;
+    }
+
+
+    .aitlogo {
+        height: 100%;
+        width: 200px;
+
+    }
+
+    .headerlist {
+
+        list-style: none;
+        display: flex;
+        gap: 50px;
+        height: 50px;
+        align-items: center;
+        font-weight: 600;
+        font-size: larger;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+    #hamberger {
+        display: none;
+    }
+
+    .link {
+        color: black;
+        text-decoration: none;
+    }
+
+    .headerlist .link>li:hover {
+
+        text-decoration: underline;
+        color: #2e767e;
+    }
+    .tablecontent{
+
+        margin-top: 40px;
+       display: flex;
+       justify-content: center;
+    }
+
+    .table{
+
+        border: 0px;
+        border-spacing: 30px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    }
+
+    .tableimage {
+
+        height: 50px;
+        width: 80px;
+    }
+
+    .tableinput {
+
+        height: 20px;
+        width: 30px;
+    }
+
+    .coupontotal {
+
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        
+    }
+
+
+    .coupon>input {
+        height: 30px;
+        width: 250px;
+        border-width: 1px;
+        border-radius: 3px;
+        margin-top: 10px;
+    }
+
+    .coupon>button {
+
+        height: 30px;
+        width: 80px;
+        border-radius: 5px;
+        border-width: 0px;
+        color: white;
+        background-color: #2e767e;
+
+    }
+
+    .coupon>label {
+        font-weight: bold;
+    }
+
+    .totaltable {
+
+        
+        border-spacing: 10px;
+    }
+
+    .totaltable td>span {
+        font-weight: bold;
+        margin-left: 160px;
+    }
+
+    .total>button {
+
+        padding: 10px;
+        width: 170px;
+        font-weight: bold;
+        color: white;
+        background-color: #2e767e;
+        border-width: 0px;
+        border-radius: 5px;
+    }
+
+
+
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ##Screen = B/w 1025px to 1280px/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  */
+  
+  @media (min-width: 1024px) and (max-width: 1280px) {
+    
+
+        
+    .headerpart {
+
+        height: 50px;
+        padding: 10px 120px;
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 0px 3px cadetblue;
+        position: sticky;
+        top: 0px;
+        background-color: antiquewhite;
+    }
+
+
+    .aitlogo {
+        height: 100%;
+        width: 200px;
+    }
+
+    .headerlist {
+
+        list-style: none;
+        display: flex;
+        gap: 50px;
+        height: 50px;
+        align-items: center;
+        font-weight: 600;
+        font-size: larger;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+
+    #hamberger {
+
+        display: none;
+    }
+
+    .headerlist>li:hover {
+
+        text-decoration: underline;
+        color: #2e767e;
+    }
+
+    .tablecontent{
+
+        margin-top: 40px;
+       display: flex;
+       justify-content: center;
+    }
+
+    .table{
+
+        border: 0px;
+        border-spacing: 30px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    }
+
+    .tableimage {
+
+        height: 50px;
+        width: 80px;
+    }
+
+    .tableinput {
+
+        height: 20px;
+        width: 30px;
+    }
+
+    .coupontotal {
+
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        
+    }
+
+
+    .coupon>input {
+        height: 30px;
+        width: 250px;
+        border-width: 1px;
+        border-radius: 3px;
+        margin-top: 10px;
+    }
+
+    .coupon>button {
+
+        height: 30px;
+        width: 80px;
+        border-radius: 5px;
+        border-width: 0px;
+        color: white;
+        background-color: #2e767e;
+
+    }
+
+    .coupon>label {
+        font-weight: bold;
+    }
+
+    .totaltable {
+
+        
+        border-spacing: 10px;
+    }
+
+    .totaltable td>span {
+        font-weight: bold;
+        margin-left: 160px;
+    }
+
+    .total>button {
+
+        padding: 10px;
+        width: 170px;
+        font-weight: bold;
+        color: white;
+        background-color: #2e767e;
+        border-width: 0px;
+        border-radius: 5px;
+    }
+
+
+
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)/////////////////////////////////////////////////////////////////////////////////////////////////
+    ##Screen = B/w 768px to 1024px///////////////////////////////////////////////////////////////////////////////////////////////////////
+  */
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    
+
+    .headerpart {
+
+        height: 50px;
+        padding: 10px 120px;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        box-shadow: 0px 3px cadetblue;
+        position: sticky;
+        top: 0px;
+        background-color: antiquewhite;
+
+    }
+
+
+    .aitlogo {
+        height: 100%;
+        width: 150px;
+    }
+
+    .headerlist {
+
+        list-style: none;
+        display: flex;
+        gap: 50px;
+        height: 55px;
+        align-items: center;
+        font-weight: 600;
+        font-size: larger;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+
+    #hamberger {
+
+        display: none;
+    }
+
+    .link {
+        color: black;
+        text-decoration: none;
+    }
+
+
+    .headerlist .link>li:hover {
+
+        text-decoration: underline;
+        color: #2e767e;
+    }
+
+    .tablecontent{
+
+        margin-top: 40px;
+       display: flex;
+       justify-content: center;
+    }
+
+    .table{
+
+        border: 0px;
+        border-spacing: 30px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    }
+
+    .tableimage {
+
+        height: 50px;
+        width: 80px;
+    }
+
+    .tableinput {
+
+        height: 20px;
+        width: 30px;
+    }
+
+    .coupontotal {
+
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        
+    }
+
+
+    .coupon>input {
+        height: 30px;
+        width: 250px;
+        border-width: 1px;
+        border-radius: 3px;
+        margin-top: 10px;
+    }
+
+    .coupon>button {
+
+        height: 30px;
+        width: 80px;
+        border-radius: 5px;
+        border-width: 0px;
+        color: white;
+        background-color: #2e767e;
+
+    }
+
+    .coupon>label {
+        font-weight: bold;
+    }
+
+    .totaltable {
+
+        
+        border-spacing: 10px;
+    }
+
+    .totaltable td>span {
+        font-weight: bold;
+        margin-left: 160px;
+    }
+
+    .total>button {
+
+        padding: 10px;
+        width: 170px;
+        font-weight: bold;
+        color: white;
+        background-color: #2e767e;
+        border-width: 0px;
+        border-radius: 5px;
+    }
+
+
+
+    
+
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)//////////////////////////////////////////////////////////////////////////////////////////////////
+    ##Screen = B/w 768px to 1024px///////////////////////////////////////////////////////////////////////////////////////////////////////////
+  */
+  
+  @media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+    
+
+    .headerpart {
+
+        height: 50px;
+        padding: 10px 50px;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        box-shadow: 0px 3px cadetblue;
+        position: sticky;
+        top: 0px;
+
+    }
+
+
+    .aitlogo {
+        height: 100%;
+        width: 150px;
+    }
+
+    .headerlist {
+
+        list-style: none;
+        display: flex;
+        gap: 50px;
+        height: 50px;
+        align-items: center;
+        font-weight: 600;
+        font-size: larger;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+    #hamberger {
+
+        display: none;
+    }
+
+    .link {
+        color: black;
+        text-decoration: none;
+    }
+
+    .headerlist .link>li:hover {
+
+        text-decoration: underline;
+        color: #2e767e;
+    }
+
+    .tablecontent{
+
+        margin-top: 40px;
+       display: flex;
+       justify-content: center;
+    }
+
+    .table{
+
+        border: 0px;
+        border-spacing: 30px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    }
+
+    .tableimage {
+
+        height: 50px;
+        width: 80px;
+    }
+
+    .tableinput {
+
+        height: 20px;
+        width: 30px;
+    }
+
+    .coupontotal {
+
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        
+    }
+
+
+    .coupon>input {
+        height: 30px;
+        width: 250px;
+        border-width: 1px;
+        border-radius: 3px;
+        margin-top: 10px;
+    }
+
+    .coupon>button {
+
+        height: 30px;
+        width: 80px;
+        border-radius: 5px;
+        border-width: 0px;
+        color: white;
+        background-color: #2e767e;
+
+    }
+
+    .coupon>label {
+        font-weight: bold;
+    }
+
+    .totaltable {
+
+        
+        border-spacing: 10px;
+    }
+
+    .totaltable td>span {
+        font-weight: bold;
+        margin-left: 160px;
+    }
+
+    .total>button {
+
+        padding: 10px;
+        width: 170px;
+        font-weight: bold;
+        color: white;
+        background-color: #2e767e;
+        border-width: 0px;
+        border-radius: 5px;
+    }
+
+
+
+
+
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)///////////////////////////////////////////////////////////////////////////////////////
+    ##Screen = B/w 481px to 767px /////////////////////////////////////////////////////////////////////////////////
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+
+    .headerpart {
+
+        height: 50px;
+        padding: 10px 10px;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        box-shadow: 0px 3px cadetblue;
+        position: sticky;
+        top: 0px;
+        background-color: antiquewhite;
+    }
+
+
+    .aitlogo {
+        height: 100%;
+        width: 150px;
+    }
+
+    .headerlist {
+
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        height: 50px;
+        align-items: center;
+        font-weight: 600;
+        font-size: large;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+
+    #hamberger {
+
+        display: none;
+    }
+
+    .link {
+        color: black;
+        text-decoration: none;
+    }
+
+
+    .headerlist .link>li:hover {
+
+        text-decoration: underline;
+        color: #2e767e;
+    }
+
+    .tablecontent{
+
+        margin-top: 40px;
+       display: flex;
+       justify-content: center;
+    }
+
+    .table{
+
+        border: 0px;
+        border-spacing: 30px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    }
+
+    .tableimage {
+
+        height: 50px;
+        width: 80px;
+    }
+
+    .tableinput {
+
+        height: 20px;
+        width: 30px;
+    }
+
+    .coupontotal {
+
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        
+    }
+
+
+    .coupon>input {
+        height: 30px;
+        width: 230px;
+        border-width: 1px;
+        border-radius: 3px;
+        margin-top: 10px;
+    }
+
+    .coupon>button {
+
+        height: 30px;
+        width: 80px;
+        border-radius: 5px;
+        border-width: 0px;
+        color: white;
+        background-color: #2e767e;
+
+    }
+
+    .coupon>label {
+        font-weight: bold;
+    }
+
+    .totaltable {
+
+        
+        border-spacing: 10px;
+    }
+
+    .totaltable td>span {
+        font-weight: bold;
+        margin-left: 130px;
+    }
+
+    .total>button {
+
+        padding: 10px;
+        width: 170px;
+        font-weight: bold;
+        color: white;
+        background-color: #2e767e;
+        border-width: 0px;
+        border-radius: 5px;
+    }
+
+
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)/////////////////////////////////////////////////////////////////////////////////
+    ##Screen = B/w 320px to 479px/////////////////////////////???????????????////////////////////////////////////////////////////////
+  */
+  
+  @media  (max-width: 480px) {
+
+
+    
+    .headerpart {
+
+        height: 50px;
+        width: 100%;
+        display: flex;
+        padding: 10px 20px;
+        justify-content: space-between;
+        align-content: center;
+        box-shadow: 0px 3px cadetblue;
+        position: sticky;
+        top: 0px;
+        background-color: antiquewhite;
+
+    }
+
+
+    .aitlogo {
+        height: 100%;
+        width: 100px;
+    }
+
+    .headerlist {
+
+        list-style: none;
+        display: flex;
+        gap: 10px;
+        height: 50px;
+        width: 100%;
+        align-items: center;
+        font-weight: 600;
+        font-size: small;
+        font-family: 'Times New Roman', Times, serif;
+
+
+    }
+
+    #hamberger {
+
+        display: none;
+    }
+
+    .link {
+        color: black;
+        text-decoration: none;
+    }
+
+
+
+    .headerlist .link>li:hover {
+
+        text-decoration: underline;
+        color: #2e767e;
+    }
+    .tablecontent{
+
+        margin-top: 20px;
+       margin-left: 10px;
+       display: flex;
+       justify-content: center;
+    }
+
+    .table{
+
+        border: 0px;
+        border-spacing: 10px;
+        font-size: 9px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    }
+
+    .tableimage {
+
+        height: 50px;
+        width: 50px;
+    }
+
+    .tableinput {
+
+        height: 20px;
+        width: 20px;
+    }
+
+    .coupontotal {
+
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        
+    }
+
+
+    .coupon>input {
+        height: 30px;
+        width: 200px;
+        border-width: 1px;
+        border-radius: 3px;
+        margin-top: 10px;
+    }
+
+    .coupon>button {
+
+        height: 30px;
+        width: 80px;
+        border-radius: 5px;
+        border-width: 0px;
+        color: white;
+        background-color: #2e767e;
+
+    }
+
+    .coupon>label {
+        font-weight: bold;
+    }
+
+    .totaltable {
+        border-spacing: 10px;
+    }
+
+
+    .totaltable td>span {
+        font-weight: bold;
+        margin-left: 140px;
+    }
+
+    .total>button {
+
+        padding: 10px;
+        width: 170px;
+        font-weight: bold;
+        color: white;
+        background-color: #2e767e;
+        border-width: 0px;
+        border-radius: 5px;
+    }
+
+
+  }
+
+  
+      /* shoppingbag css completed ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* shirtpage css started ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  
+    .shirtcontent {
+
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+       
+    }
+
+    .shirt{
+
+        display: flex;
+        flex-direction: column;
+      
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    }
+
+    .shirtimage{
+
+        height: 350px;
+        width: 350px;
+       
+    }
+
+    .differentshirts {
+
+        display: flex;
+        gap: 5px;
+        justify-content: center;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+       
+    }
+
+    .smallshirt {
+
+        height: 55px;
+        width: 50px;
+       
+    }
+
+    .shirtdescription {
+
+       
+        padding: 10px;
+        width: 400px;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+        
+    }
+
+    .shirtdescription>p{
+        padding:5px;
+    }
+
+    .shirtdescription>h2{
+        padding:5px;
+    }
+
+    .option{
+
+        height: 30px;
+        width: 130px;
+        border-width: 1px;
+        border-radius: 5px;
+    }
+
+    .shirtinput {
+
+        height: 30px;
+        width: 35px;
+    }
+
+    .shirtbutton {
+
+        padding: 9px;
+        border-radius: 5px;
+        border-width: 0px;
+        background-color: #2e767e;
+        color: white;
+        width: 100px;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1024px) and (max-width: 1280px) {
+    
+    
+    .shirtcontent {
+
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+       
+    }
+
+    .shirt{
+
+        display: flex;
+        flex-direction: column;
+      
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    }
+
+    .shirtimage{
+
+        height: 350px;
+        width: 350px;
+       
+    }
+
+    .differentshirts {
+
+        display: flex;
+        gap: 5px;
+        justify-content: center;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+       
+    }
+
+    .smallshirt {
+
+        height: 55px;
+        width: 50px;
+       
+    }
+
+    .shirtdescription {
+
+       
+        padding: 10px;
+        width: 400px;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+        
+    }
+
+    .shirtdescription>p{
+        padding:5px;
+    }
+
+    .shirtdescription>h2{
+        padding:5px;
+    }
+
+    .option{
+
+        height: 30px;
+        width: 130px;
+        border-width: 1px;
+        border-radius: 5px;
+    }
+
+    .shirtinput {
+
+        height: 30px;
+        width: 35px;
+    }
+
+    .shirtbutton {
+
+        padding: 9px;
+        border-radius: 5px;
+        border-width: 0px;
+        background-color: #2e767e;
+        color: white;
+        width: 100px;
+    }
+    
+
+
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    
+    
+    .shirtcontent {
+
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+       
+    }
+
+    .shirt{
+
+        display: flex;
+        flex-direction: column;
+      
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    }
+
+    .shirtimage{
+
+        height: 350px;
+        width: 350px;
+       
+    }
+
+    .differentshirts {
+
+        display: flex;
+        gap: 5px;
+        justify-content: center;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+       
+    }
+
+    .smallshirt {
+
+        height: 55px;
+        width: 50px;
+       
+    }
+
+    .shirtdescription {
+
+       
+        padding: 10px;
+        width: 400px;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+        
+    }
+
+    .shirtdescription>p{
+        padding:5px;
+    }
+
+    .shirtdescription>h2{
+        padding:5px;
+    }
+
+    .option{
+
+        height: 30px;
+        width: 130px;
+        border-width: 1px;
+        border-radius: 5px;
+    }
+
+    .shirtinput {
+
+        height: 30px;
+        width: 35px;
+    }
+
+    .shirtbutton {
+
+        padding: 9px;
+        border-radius: 5px;
+        border-width: 0px;
+        background-color: #2e767e;
+        color: white;
+        width: 100px;
+    }
+
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+    
+
+    .shirtcontent {
+
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+       
+    }
+
+    .shirt{
+
+        display: flex;
+        flex-direction: column;
+      
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    }
+
+    .shirtimage{
+
+        height: 350px;
+        width: 350px;
+       
+    }
+
+    .differentshirts {
+
+        display: flex;
+        gap: 5px;
+        justify-content: center;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+       
+    }
+
+    .smallshirt {
+
+        height: 55px;
+        width: 50px;
+       
+    }
+
+    .shirtdescription {
+
+       
+        padding: 10px;
+        width: 400px;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+        
+    }
+
+    .shirtdescription>p{
+        padding:5px;
+    }
+
+    .shirtdescription>h2{
+        padding:5px;
+    }
+
+    .option{
+
+        height: 30px;
+        width: 130px;
+        border-width: 1px;
+        border-radius: 5px;
+    }
+
+    .shirtinput {
+
+        height: 30px;
+        width: 35px;
+    }
+
+    .shirtbutton {
+
+        padding: 9px;
+        border-radius: 5px;
+        border-width: 0px;
+        background-color: #2e767e;
+        color: white;
+        width: 100px;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+
+    .shirtcontent {
+
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+       
+    }
+
+    .shirt{
+
+        display: flex;
+        flex-direction: column;
+      
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    }
+
+    .shirtimage{
+
+        height: 350px;
+        width: 350px;
+       
+    }
+
+    .differentshirts {
+
+        display: flex;
+        gap: 5px;
+        justify-content: center;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+       
+    }
+
+    .smallshirt {
+
+        height: 55px;
+        width: 50px;
+       
+    }
+
+    .shirtdescription {
+
+       
+        padding: 10px;
+        width: 400px;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+        
+    }
+
+    .shirtdescription>p{
+        padding:5px;
+    }
+
+    .shirtdescription>h2{
+        padding:5px;
+    }
+
+    .option{
+
+        height: 30px;
+        width: 130px;
+        border-width: 1px;
+        border-radius: 5px;
+    }
+
+    .shirtinput {
+
+        height: 30px;
+        width: 35px;
+    }
+
+    .shirtbutton {
+
+        padding: 9px;
+        border-radius: 5px;
+        border-width: 0px;
+        background-color: #2e767e;
+        color: white;
+        width: 100px;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (max-width: 480px) {
+
+    .shirtcontent {
+
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+       
+    }
+
+    .shirt{
+
+        display: flex;
+        flex-direction: column;
+      
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    }
+
+    .shirtimage{
+
+        height: 350px;
+        width: 350px;
+       
+    }
+
+    .differentshirts {
+
+        display: flex;
+        gap: 5px;
+        justify-content: center;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+       
+    }
+
+    .smallshirt {
+
+        height: 55px;
+        width: 50px;
+       
+    }
+
+    .shirtdescription {
+
+       
+        padding: 10px;
+        width: 400px;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+        
+    }
+
+    .shirtdescription>p{
+        padding:5px;
+    }
+
+    .shirtdescription>h2{
+        padding:5px;
+    }
+
+    .option{
+
+        height: 30px;
+        width: 130px;
+        border-width: 1px;
+        border-radius: 5px;
+    }
+
+    .shirtinput {
+
+        height: 30px;
+        width: 35px;
+    }
+
+    .shirtbutton {
+
+        padding: 9px;
+        border-radius: 5px;
+        border-width: 0px;
+        background-color: #2e767e;
+        color: white;
+        width: 100px;
+    }
+
+
+  }
